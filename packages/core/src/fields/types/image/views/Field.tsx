@@ -90,14 +90,7 @@ function ImgView({
   field: ReturnType<typeof import('.').controller>;
   inputRef: RefObject<HTMLInputElement>;
 }) {
-  const [imageDimensions, setImageDimensions] = useState<{
-    width?: number;
-    height?: number;
-  }>({
-    width: 0,
-    height: 0,
-  });
-  const imageRef = useRef<HTMLImageElement | null>(null);
+  const [imageDimensions, setImageDimensions] = useState({ width: 0, height: 0 });
   const imagePathFromUpload = useObjectURL(
     errorMessage === undefined && value.kind === 'upload' ? value.data.file : undefined
   );
@@ -133,12 +126,11 @@ function ImgView({
               </div>
             )}
             <img
-              ref={imageRef}
-              onLoad={() => {
+              onLoad={event => {
                 if (value.kind === 'upload') {
                   setImageDimensions({
-                    width: imageRef.current?.naturalWidth,
-                    height: imageRef.current?.naturalHeight,
+                    width: event.currentTarget.naturalWidth,
+                    height: event.currentTarget.naturalHeight,
                   });
                 }
               }}

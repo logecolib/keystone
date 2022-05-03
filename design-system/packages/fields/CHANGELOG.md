@@ -1,5 +1,11 @@
 # @keystone-ui/fields
 
+## 6.1.0
+
+### Minor Changes
+
+- [#7497](https://github.com/keystonejs/keystone/pull/7497) [`73f4d566d`](https://github.com/keystonejs/keystone/commit/73f4d566dd580b91a096e101327786df41169347) Thanks [@borisno2](https://github.com/borisno2)! - Upgrade `react-day-picker` to v8
+
 ## 6.0.1
 
 ### Patch Changes

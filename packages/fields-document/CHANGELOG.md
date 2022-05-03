@@ -1,5 +1,17 @@
 # @keystone-6/fields-document
 
+## 2.0.1
+
+### Patch Changes
+
+- [#7464](https://github.com/keystonejs/keystone/pull/7464) [`117621594`](https://github.com/keystonejs/keystone/commit/117621594d46929bd8e7b5103fa1c4efee1bb39d) Thanks [@Achi06](https://github.com/Achi06)! - Fixed z-index issue for toolbar of the document editor
+
+* [#7494](https://github.com/keystonejs/keystone/pull/7494) [`90de98a94`](https://github.com/keystonejs/keystone/commit/90de98a94dd6c139d6ad4e03c47bf0310dc14974) Thanks [@Achi06](https://github.com/Achi06)! - Hide document toolbar in read only
+
+* Updated dependencies [[`d1e34a8cc`](https://github.com/keystonejs/keystone/commit/d1e34a8cc4b53f0d595f2b85032204af13e59eb5), [`aced61816`](https://github.com/keystonejs/keystone/commit/aced6181646bd6fc94977ea497801e6d3839f9c0), [`3bb1a5343`](https://github.com/keystonejs/keystone/commit/3bb1a53434b86e8a6294cff01a8699c36dd5df5a), [`b7a21bbb0`](https://github.com/keystonejs/keystone/commit/b7a21bbb0af131b0fe1db4139ab179b6c83fb4b7), [`d5c05cc61`](https://github.com/keystonejs/keystone/commit/d5c05cc61a703d291b8931b8342e5d37a0e3da8c), [`73f4d566d`](https://github.com/keystonejs/keystone/commit/73f4d566dd580b91a096e101327786df41169347), [`bfb6c844f`](https://github.com/keystonejs/keystone/commit/bfb6c844fcab390813ed71a889f8e815db93e0b9), [`032e2eb24`](https://github.com/keystonejs/keystone/commit/032e2eb24f67544949958def72cf5ac75c5972bb), [`ac3e52265`](https://github.com/keystonejs/keystone/commit/ac3e522652b56d28284522725b83a2e35eee6726)]:
+  - @keystone-6/core@1.1.1
+  - @keystone-ui/fields@6.1.0
+
 ## 2.0.0
 
 ### Major Changes

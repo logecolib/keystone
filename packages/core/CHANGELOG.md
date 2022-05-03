@@ -1,5 +1,28 @@
 # @keystone-6/core
 
+## 1.1.1
+
+### Patch Changes
+
+- [#7493](https://github.com/keystonejs/keystone/pull/7493) [`d1e34a8cc`](https://github.com/keystonejs/keystone/commit/d1e34a8cc4b53f0d595f2b85032204af13e59eb5) Thanks [@Achi06](https://github.com/Achi06)! - Fix the display for json field in read only
+
+* [#7417](https://github.com/keystonejs/keystone/pull/7417) [`aced61816`](https://github.com/keystonejs/keystone/commit/aced6181646bd6fc94977ea497801e6d3839f9c0) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fixed decimal `validation.min` not being respected and `validation.max` being used as the min if provided
+
+- [#7453](https://github.com/keystonejs/keystone/pull/7453) [`3bb1a5343`](https://github.com/keystonejs/keystone/commit/3bb1a53434b86e8a6294cff01a8699c36dd5df5a) Thanks [@dcousens](https://github.com/dcousens)! - Fixed Prisma schema mismatch warning accidentally showing a warning that there is a mismatch in the GraphQL schema
+
+* [#7408](https://github.com/keystonejs/keystone/pull/7408) [`b7a21bbb0`](https://github.com/keystonejs/keystone/commit/b7a21bbb0af131b0fe1db4139ab179b6c83fb4b7) Thanks [@renovate](https://github.com/apps/renovate)! - Updated `@preconstruct/next` to v4
+
+- [#7492](https://github.com/keystonejs/keystone/pull/7492) [`d5c05cc61`](https://github.com/keystonejs/keystone/commit/d5c05cc61a703d291b8931b8342e5d37a0e3da8c) Thanks [@Achi06](https://github.com/Achi06)! - Fix for the display of relationship fields in read only
+
+* [#7121](https://github.com/keystonejs/keystone/pull/7121) [`bfb6c844f`](https://github.com/keystonejs/keystone/commit/bfb6c844fcab390813ed71a889f8e815db93e0b9) Thanks [@moselhy](https://github.com/moselhy)! - Fixed React key warning when showing GraphQL errors
+
+- [#7456](https://github.com/keystonejs/keystone/pull/7456) [`032e2eb24`](https://github.com/keystonejs/keystone/commit/032e2eb24f67544949958def72cf5ac75c5972bb) Thanks [@Achi06](https://github.com/Achi06)! - Fixed Reset to default button bug.
+
+* [#7490](https://github.com/keystonejs/keystone/pull/7490) [`ac3e52265`](https://github.com/keystonejs/keystone/commit/ac3e522652b56d28284522725b83a2e35eee6726) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - The Admin UI now prompts users to confirm they want to navigate away when there are unsaved changes.
+
+* Updated dependencies [[`73f4d566d`](https://github.com/keystonejs/keystone/commit/73f4d566dd580b91a096e101327786df41169347)]:
+  - @keystone-ui/fields@6.1.0
+
 ## 1.1.0
 
 ### Minor Changes

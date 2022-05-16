@@ -13,5 +13,5 @@
     "generate": "node .",
     "verify": "VERIFY=1 node ."
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/prisma-utils"
+  "repository": "https://github.com/logecolib/keystone/tree/main/prisma-utils#keystone-master"
 }

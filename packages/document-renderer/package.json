@@ -14,5 +14,5 @@
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/packages/document-renderer"
+  "repository": "https://github.com/logecolib/keystone/tree/main/packages/document-renderer#keystone-master"
 }

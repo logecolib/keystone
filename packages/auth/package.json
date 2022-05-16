@@ -32,5 +32,5 @@
       "pages/*.tsx"
     ]
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/packages/auth"
+  "repository": "https://github.com/logecolib/keystone/tree/main/packages/auth#keystone-master"
 }

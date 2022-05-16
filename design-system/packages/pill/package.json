@@ -18,5 +18,5 @@
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/design-system/packages/pill"
+  "repository": "https://github.com/logecolib/keystone/tree/main/design-system/packages/pill#keystone-master"
 }

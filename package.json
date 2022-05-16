@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "author": "The KeystoneJS Development Team",
   "license": "MIT",
-  "repository": "https://github.com/logecolib/keystone",
+  "repository": "https://github.com/logecolib/keystone#keystone-master",
   "homepage": "https://github.com/logecolib/keystone",
   "scripts": {
     "prisma": "prisma",

@@ -16,5 +16,5 @@
     "@keystone-6-master/core": "^1.1.1",
     "@keystone-6-master/fields-document": "^2.0.1"
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/examples-staging/graphql-api-endpoint"
+  "repository": "https://github.com/logecolib/keystone/tree/main/examples-staging/graphql-api-endpoint#keystone-master"
 }

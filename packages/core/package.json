@@ -163,5 +163,5 @@
       "types/index.ts"
     ]
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/packages/core"
+  "repository": "https://github.com/logecolib/keystone/tree/main/packages/core#keystone-master"
 }

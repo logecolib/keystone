@@ -8,7 +8,7 @@
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/tests/api-tests",
+  "repository": "https://github.com/logecolib/keystone/tree/main/tests/api-tests#keystone-master",
   "homepage": "https://github.com/logecolib/keystone",
   "devDependencies": {
     "@hapi/iron": "^6.0.0",

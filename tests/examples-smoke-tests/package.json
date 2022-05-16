@@ -8,7 +8,7 @@
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/tests/examples-smoke-tests",
+  "repository": "https://github.com/logecolib/keystone/tree/main/tests/examples-smoke-tests#keystone-master",
   "homepage": "https://github.com/logecolib/keystone",
   "dependencies": {
     "@types/async-retry": "^1.4.4",

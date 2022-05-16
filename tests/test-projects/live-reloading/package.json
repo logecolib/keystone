@@ -17,5 +17,5 @@
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/tests/test-projects/live-reloading"
+  "repository": "https://github.com/logecolib/keystone/tree/main/tests/test-projects/live-reloading#keystone-master"
 }

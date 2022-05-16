@@ -32,5 +32,5 @@
       "views/index.tsx"
     ]
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/packages/cloudinary"
+  "repository": "https://github.com/logecolib/keystone/tree/main/packages/cloudinary#keystone-master"
 }

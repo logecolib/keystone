@@ -22,5 +22,5 @@
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/design-system/packages/popover"
+  "repository": "https://github.com/logecolib/keystone/tree/main/design-system/packages/popover#keystone-master"
 }

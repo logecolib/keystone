@@ -11,7 +11,7 @@
   "scripts": {
     "go": "node fixtures/index.js"
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/tests/benchmarks",
+  "repository": "https://github.com/logecolib/keystone/tree/main/tests/benchmarks#keystone-master",
   "homepage": "https://github.com/logecolib/keystone",
   "dependencies": {
     "@keystone-6-master/core": "^1.1.1",

@@ -18,5 +18,5 @@
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/examples/custom-admin-ui-navigation"
+  "repository": "https://github.com/logecolib/keystone/tree/main/examples/custom-admin-ui-navigation#keystone-master"
 }

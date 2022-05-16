@@ -36,5 +36,5 @@
       "icons/*.tsx"
     ]
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/design-system/packages/icons"
+  "repository": "https://github.com/logecolib/keystone/tree/main/design-system/packages/icons#keystone-master"
 }

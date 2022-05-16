@@ -49,5 +49,5 @@
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/logecolib/keystone/tree/main/docs"
+  "repository": "https://github.com/logecolib/keystone/tree/main/docs#keystone-master"
 }

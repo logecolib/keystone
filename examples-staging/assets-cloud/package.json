@@ -9,7 +9,7 @@
     "build": "keystone build"
   },
   "dependencies": {
-    "@keystone-6-master/core": "^1.1.1",
+    "@keystone-6-master/core#keystone-master": "^1.1.1",
     "dotenv": "^16.0.0"
   },
   "devDependencies": {

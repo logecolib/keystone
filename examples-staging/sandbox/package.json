@@ -8,8 +8,8 @@
     "sandbox": "yarn && yarn dev"
   },
   "dependencies": {
-    "@keystone-6-master/auth": "^2.0.0",
-    "@keystone-6-master/core": "^1.1.0"
+    "@keystone-6-master/auth#keystone-master": "^2.0.0",
+    "@keystone-6-master/core#keystone-master": "^1.1.0"
   },
   "engines": {
     "node": "^14.15 || ^16.15"

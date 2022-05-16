@@ -10,9 +10,9 @@
     "build": "keystone build"
   },
   "dependencies": {
-    "@keystone-6-master/core": "^1.1.1",
-    "@keystone-6-master/document-renderer": "^1.0.0",
-    "@keystone-6-master/fields-document": "^2.0.1",
+    "@keystone-6-master/core#keystone-master": "^1.1.1",
+    "@keystone-6-master/document-renderer#keystone-master": "^1.0.0",
+    "@keystone-6-master/fields-document#keystone-master": "^2.0.1",
     "@preconstruct/next": "^4.0.0",
     "next": "^12.1.0",
     "react": "^17.0.2"

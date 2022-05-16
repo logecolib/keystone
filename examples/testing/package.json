@@ -13,8 +13,8 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
-    "@keystone-6-master/auth": "^2.0.0",
-    "@keystone-6-master/core": "^1.1.0"
+    "@keystone-6-master/auth#keystone-master": "^2.0.0",
+    "@keystone-6-master/core#keystone-master": "^1.1.0"
   },
   "devDependencies": {
     "babel-jest": "^27.3.1",

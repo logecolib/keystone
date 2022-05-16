@@ -1,7 +1,7 @@
 {
   "name": "@keystone-ui/website",
   "version": "4.0.0",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "scripts": {
     "dev": "next -p 8080"

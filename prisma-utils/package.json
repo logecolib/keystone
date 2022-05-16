@@ -1,7 +1,7 @@
 {
   "name": "@keystone-6-master/prisma-utils",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "main": "dist/keystone-6-prisma-utils.cjs.js",
   "dependencies": {
     "@prisma/generator-helper": "3.14.0",

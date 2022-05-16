@@ -1,7 +1,7 @@
 {
   "name": "@keystone-6-master/mono-repo",
   "description": "KeystoneJS monorepo for all the @keystone-6 packages",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "author": "The KeystoneJS Development Team",
   "license": "MIT",
@@ -104,23 +104,6 @@
     "plugins": [
       "remark-frontmatter",
       "remark-toc"
-    ]
-  },
-  "workspaces": {
-    "packages": [
-      "design-system/packages/*",
-      "design-system/website",
-      "docs",
-      "examples-staging/*",
-      "examples/*",
-      "packages/*",
-      "tests/admin-ui-tests",
-      "tests/api-tests",
-      "tests/benchmarks",
-      "tests/examples-smoke-tests",
-      "tests/test-projects/*",
-      "prisma-utils",
-      "scripts/*"
     ]
   },
   "preconstruct": {

@@ -1,7 +1,7 @@
 {
   "name": "@keystone-6-master/generate-artifacts-for-projects",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "main": "dist/keystone-6-generate-artifacts-for-projects.cjs.js",
   "dependencies": {
     "@keystone-6-master/core": "^1.1.1"

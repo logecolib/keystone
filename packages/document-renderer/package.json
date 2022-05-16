@@ -6,7 +6,7 @@
   "main": "dist/keystone-6-document-renderer.cjs.js",
   "module": "dist/keystone-6-document-renderer.esm.js",
   "peerDependencies": {
-    "react": "^16.14.0 || 17"
+    "react": "^18.1.0"
   },
   "devDependencies": {
     "react": "^18.1.0"

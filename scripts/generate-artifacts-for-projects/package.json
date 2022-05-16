@@ -4,7 +4,7 @@
   "private": true,
   "main": "dist/keystone-6-generate-artifacts-for-projects.cjs.js",
   "dependencies": {
-    "@keystone-6-master/core#keystone-master": "^1.0.0"
+    "@keystone-6-master/core": "^1.1.1"
   },
-  "repository": "https://github.com/keystonejs/keystone/tree/main/scripts/generate-artifacts-for-projects"
+  "repository": "https://github.com/logecolib/keystone/tree/main/scripts/generate-artifacts-for-projects"
 }

@@ -8,11 +8,11 @@
     "sandbox": "yarn && yarn dev"
   },
   "dependencies": {
-    "@keystone-6-master/auth#keystone-master": "^2.0.0",
-    "@keystone-6-master/core#keystone-master": "^1.1.0"
+    "@keystone-6-master/auth": "^2.0.2",
+    "@keystone-6-master/core": "^1.1.1"
   },
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/keystonejs/keystone/tree/main/examples-staging/sandbox"
+  "repository": "https://github.com/logecolib/keystone/tree/main/examples-staging/sandbox"
 }

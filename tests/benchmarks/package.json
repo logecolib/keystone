@@ -11,11 +11,11 @@
   "scripts": {
     "go": "node fixtures/index.js"
   },
-  "repository": "https://github.com/keystonejs/keystone/tree/main/tests/benchmarks",
-  "homepage": "https://github.com/keystonejs/keystone",
+  "repository": "https://github.com/logecolib/keystone/tree/main/tests/benchmarks",
+  "homepage": "https://github.com/logecolib/keystone",
   "dependencies": {
-    "@keystone-6-master/core#keystone-master": "^1.0.0",
-    "cookie-signature": "^1.1.0",
+    "@keystone-6-master/core": "^1.1.1",
+    "cookie-signature": "^1.2.0",
     "testcheck": "^1.0.0-rc.2"
   }
 }

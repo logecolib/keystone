@@ -10,13 +10,13 @@
     "seed-data": "keystone --seed-data"
   },
   "dependencies": {
-    "@keystone-6-master/core#keystone-master": "^1.1.1"
+    "@keystone-6-master/core": "^1.1.1"
   },
   "devDependencies": {
-    "typescript": "^4.5.4"
+    "typescript": "^4.6.4"
   },
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/keystonejs/keystone/tree/main/examples/blog"
+  "repository": "https://github.com/logecolib/keystone/tree/main/examples/blog"
 }

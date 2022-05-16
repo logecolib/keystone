@@ -8,15 +8,15 @@
     "node": "^14.15 || ^16.15"
   },
   "dependencies": {
-    "@babel/runtime": "^7.16.3",
-    "@types/redis": "^2.8.32"
+    "@babel/runtime": "^7.17.9",
+    "@types/redis": "^4.0.10"
   },
   "peerDependencies": {
-    "@keystone-6-master/core#keystone-master": "^1.1.0"
+    "@keystone-6-master/core": "^1.1.1"
   },
   "devDependencies": {
-    "@keystone-6-master/core#keystone-master": "^1.1.0",
-    "redis": "^3.1.2"
+    "@keystone-6-master/core": "^1.1.1",
+    "redis": "^4.1.0"
   },
-  "repository": "https://github.com/keystonejs/keystone/tree/main/packages/session-store-redis"
+  "repository": "https://github.com/logecolib/keystone/tree/main/packages/session-store-redis"
 }

@@ -8,26 +8,26 @@
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/keystonejs/keystone/tree/main/tests/api-tests",
-  "homepage": "https://github.com/keystonejs/keystone",
+  "repository": "https://github.com/logecolib/keystone/tree/main/tests/api-tests",
+  "homepage": "https://github.com/logecolib/keystone",
   "devDependencies": {
     "@hapi/iron": "^6.0.0",
     "@keystone-6-master/auth": "*",
     "@keystone-6-master/core": "*",
     "@keystone-6-master/fields-document": "*",
-    "apollo-server-types": "^3.4.0",
-    "cookie-signature": "^1.1.0",
+    "apollo-server-types": "^3.5.3",
+    "cookie-signature": "^1.2.0",
     "cuid": "^2.1.8",
-    "globby": "^11.0.4",
-    "graphql": "^15.8.0",
+    "globby": "^13.1.1",
+    "graphql": "^16.5.0",
     "memoize-one": "^6.0.0",
-    "superagent": "^6.1.0",
-    "supertest": "^6.1.6",
+    "superagent": "^7.1.3",
+    "supertest": "^6.2.3",
     "testcheck": "^1.0.0-rc.2",
     "uuid": "^8.3.2"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "strip-ansi": "^6.0.1"
+    "express": "^4.18.1",
+    "strip-ansi": "^7.0.1"
   }
 }

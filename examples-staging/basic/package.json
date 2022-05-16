@@ -9,27 +9,27 @@
     "build": "keystone build"
   },
   "dependencies": {
-    "@babel/runtime": "^7.16.3",
-    "@keystone-6-master/auth#keystone-master": "^2.0.0",
-    "@keystone-6-master/core#keystone-master": "^1.1.1",
-    "@keystone-6-master/document-renderer#keystone-master": "^1.0.0",
-    "@keystone-6-master/fields-document#keystone-master": "^2.0.1",
+    "@babel/runtime": "^7.17.9",
+    "@keystone-6-master/auth": "^2.0.2",
+    "@keystone-6-master/core": "^1.1.1",
+    "@keystone-6-master/document-renderer": "^1.0.1",
+    "@keystone-6-master/fields-document": "^2.0.1",
     "@keystone-ui/core": "^4.0.0",
     "@keystone-ui/fields": "^6.1.0",
     "@keystone-ui/icons": "^5.0.0",
     "@keystone-ui/tooltip": "^5.0.0",
-    "@types/react": "^17.0.37",
-    "graphql": "^15.8.0",
+    "@types/react": "^18.0.9",
+    "graphql": "^16.5.0",
     "graphql-tag": "^2.12.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "typescript": "^4.5.4"
+    "typescript": "^4.6.4"
   },
   "engines": {
     "node": "^14.15 || ^16.15"
   },
-  "repository": "https://github.com/keystonejs/keystone/tree/main/examples-staging/basic"
+  "repository": "https://github.com/logecolib/keystone/tree/main/examples-staging/basic"
 }

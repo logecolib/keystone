@@ -1,15 +1,15 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, useTheme } from '@keystone-ui/core';
+import { jsx, useTheme } from '@keystone-ui-master/core';
 import { useRouter } from '@keystone-6-master/core/admin-ui/router';
 import { gql, useQuery } from '@keystone-6-master/core/admin-ui/apollo';
 import { DocumentRenderer } from '@keystone-6-master/document-renderer';
 import { InferRenderersForComponentBlocks } from '@keystone-6-master/fields-document/component-blocks';
 
-import { InfoIcon } from '@keystone-ui/icons/icons/InfoIcon';
-import { AlertTriangleIcon } from '@keystone-ui/icons/icons/AlertTriangleIcon';
-import { AlertOctagonIcon } from '@keystone-ui/icons/icons/AlertOctagonIcon';
-import { CheckCircleIcon } from '@keystone-ui/icons/icons/CheckCircleIcon';
+import { InfoIcon } from '@keystone-ui-master/icons/icons/InfoIcon';
+import { AlertTriangleIcon } from '@keystone-ui-master/icons/icons/AlertTriangleIcon';
+import { AlertOctagonIcon } from '@keystone-ui-master/icons/icons/AlertOctagonIcon';
+import { CheckCircleIcon } from '@keystone-ui-master/icons/icons/CheckCircleIcon';
 
 type ComponentBlockRenderers = InferRenderersForComponentBlocks<
   typeof import('../../fieldViews/Content').componentBlocks

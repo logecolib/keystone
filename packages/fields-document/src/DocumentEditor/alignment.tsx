@@ -1,12 +1,12 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from '@keystone-ui/core';
-import { AlignLeftIcon } from '@keystone-ui/icons/icons/AlignLeftIcon';
-import { AlignRightIcon } from '@keystone-ui/icons/icons/AlignRightIcon';
-import { AlignCenterIcon } from '@keystone-ui/icons/icons/AlignCenterIcon';
-import { ChevronDownIcon } from '@keystone-ui/icons/icons/ChevronDownIcon';
-import { useControlledPopover } from '@keystone-ui/popover';
-import { Tooltip } from '@keystone-ui/tooltip';
+import { jsx } from '@keystone-ui-master/core';
+import { AlignLeftIcon } from '@keystone-ui-master/icons/icons/AlignLeftIcon';
+import { AlignRightIcon } from '@keystone-ui-master/icons/icons/AlignRightIcon';
+import { AlignCenterIcon } from '@keystone-ui-master/icons/icons/AlignCenterIcon';
+import { ChevronDownIcon } from '@keystone-ui-master/icons/icons/ChevronDownIcon';
+import { useControlledPopover } from '@keystone-ui-master/popover';
+import { Tooltip } from '@keystone-ui-master/tooltip';
 import { applyRefs } from 'apply-ref';
 import { useState, ComponentProps, useMemo } from 'react';
 import { Transforms } from 'slate';

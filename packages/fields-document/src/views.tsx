@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx } from '@keystone-ui/core';
-import { FieldContainer, FieldLabel } from '@keystone-ui/fields';
+import { jsx } from '@keystone-ui-master/core';
+import { FieldContainer, FieldLabel } from '@keystone-ui-master/fields';
 import { Descendant, Node, Text } from 'slate';
 import { DocumentRenderer } from '@keystone-6-master/document-renderer';
 

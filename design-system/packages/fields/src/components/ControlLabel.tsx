@@ -2,7 +2,7 @@
 /** @jsx jsx */
 
 import { ReactNode, ReactElement } from 'react';
-import { jsx, useTheme } from '@keystone-ui/core';
+import { jsx, useTheme } from '@keystone-ui-master/core';
 
 import type { SizeType } from '../types';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@keystone-ui/options",
+  "name": "@keystone-ui-master/options",
   "version": "5.0.0",
   "license": "MIT",
   "main": "dist/keystone-ui-options.cjs.js",
@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
-    "@keystone-ui/core": "^4.0.0",
-    "@keystone-ui/fields": "^6.1.0",
-    "@keystone-ui/icons": "^5.0.0",
+    "@keystone-ui-master/core": "^4.0.0",
+    "@keystone-ui-master/fields": "^6.1.0",
+    "@keystone-ui-master/icons": "^5.0.0",
     "react-select": "^5.3.2"
   },
   "engines": {

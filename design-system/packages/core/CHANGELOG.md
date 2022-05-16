@@ -1,4 +1,4 @@
-# @keystone-ui/core
+# @keystone-ui-master/core
 
 ## 4.0.0
 
@@ -26,7 +26,7 @@
 
 ### Patch Changes
 
-- [#6414](https://github.com/keystonejs/keystone/pull/6414) [`32f024738`](https://github.com/keystonejs/keystone/commit/32f0247384ecf3bce5c3ef14ad8d367c9888459f) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Updated usages of `jsx` from `@keystone-ui/core` to explicitly use `/** @jsxRuntime classic */`
+- [#6414](https://github.com/keystonejs/keystone/pull/6414) [`32f024738`](https://github.com/keystonejs/keystone/commit/32f0247384ecf3bce5c3ef14ad8d367c9888459f) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Updated usages of `jsx` from `@keystone-ui-master/core` to explicitly use `/** @jsxRuntime classic */`
 
 ## 3.1.1
 

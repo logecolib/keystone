@@ -1,5 +1,5 @@
 {
-  "name": "@keystone-ui/icons",
+  "name": "@keystone-ui-master/icons",
   "version": "5.0.0",
   "license": "MIT",
   "main": "dist/keystone-ui-icons.cjs.js",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
-    "@keystone-ui/core": "^4.0.0"
+    "@keystone-ui-master/core": "^4.0.0"
   },
   "peerDependencies": {
     "react": "^18.1.0"

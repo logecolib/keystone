@@ -1,8 +1,8 @@
 import React, { ComponentProps, Fragment, useMemo } from 'react';
 import { Editor } from 'slate';
 
-import { MinusIcon } from '@keystone-ui/icons/icons/MinusIcon';
-import { Tooltip } from '@keystone-ui/tooltip';
+import { MinusIcon } from '@keystone-ui-master/icons/icons/MinusIcon';
+import { Tooltip } from '@keystone-ui-master/tooltip';
 
 import { KeyboardInTooltip, ToolbarButton } from './primitives';
 import { useToolbarState } from './toolbar-state';

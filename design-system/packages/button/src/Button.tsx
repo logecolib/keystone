@@ -2,8 +2,8 @@
 /** @jsx jsx */
 
 import { ReactNode, useContext } from 'react';
-import { forwardRefWithAs, jsx } from '@keystone-ui/core';
-import { LoadingDots } from '@keystone-ui/loading';
+import { forwardRefWithAs, jsx } from '@keystone-ui-master/core';
+import { LoadingDots } from '@keystone-ui-master/loading';
 
 import { ButtonContext } from './context';
 import type { WeightKey, ToneKey, SizeKey } from './hooks/button';

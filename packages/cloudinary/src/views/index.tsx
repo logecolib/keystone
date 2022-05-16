@@ -1,14 +1,14 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@keystone-ui-master/core';
 import {
   CardValueComponent,
   CellComponent,
   FieldController,
   FieldControllerConfig,
 } from '@keystone-6-master/core/types';
-import { FieldContainer, FieldLabel } from '@keystone-ui/fields';
+import { FieldContainer, FieldLabel } from '@keystone-ui-master/fields';
 import { validateImage } from './Field';
 
 export { Field } from './Field';

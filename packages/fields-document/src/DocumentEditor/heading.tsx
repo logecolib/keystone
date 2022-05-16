@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@keystone-ui-master/core';
 import { RenderElementProps } from 'slate-react';
 
 import { Editor, Transforms, Range, Point, Path, Node, Element, Text } from 'slate';

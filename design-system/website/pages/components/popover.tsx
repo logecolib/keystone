@@ -1,9 +1,9 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { Button } from '@keystone-ui/button';
-import { Box, jsx } from '@keystone-ui/core';
-import { Popover } from '@keystone-ui/popover';
+import { Button } from '@keystone-ui-master/button';
+import { Box, jsx } from '@keystone-ui-master/core';
+import { Popover } from '@keystone-ui-master/popover';
 import { Page } from '../../components/Page';
 
 export default function PopoverPage() {

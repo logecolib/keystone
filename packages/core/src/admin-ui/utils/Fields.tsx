@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Stack } from '@keystone-ui/core';
+import { jsx, Stack } from '@keystone-ui-master/core';
 import { memo, useMemo } from 'react';
 import { FieldMeta } from '../../types';
 import { Value } from '.';

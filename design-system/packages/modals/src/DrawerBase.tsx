@@ -4,7 +4,7 @@
 import { Fragment, KeyboardEvent, MutableRefObject, ReactNode, useCallback, useRef } from 'react';
 import FocusLock from 'react-focus-lock';
 import { RemoveScroll } from 'react-remove-scroll';
-import { makeId, useId, useTheme, Portal, jsx } from '@keystone-ui/core';
+import { makeId, useId, useTheme, Portal, jsx } from '@keystone-ui-master/core';
 import { Blanket } from './Blanket';
 
 import { useDrawerManager } from './drawer-context';

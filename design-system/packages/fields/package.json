@@ -1,5 +1,5 @@
 {
-  "name": "@keystone-ui/fields",
+  "name": "@keystone-ui-master/fields",
   "version": "6.1.0",
   "license": "MIT",
   "main": "dist/keystone-ui-fields.cjs.js",
@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
-    "@keystone-ui/core": "^4.0.0",
-    "@keystone-ui/icons": "^5.0.0",
-    "@keystone-ui/popover": "^5.0.1",
+    "@keystone-ui-master/core": "^4.0.0",
+    "@keystone-ui-master/icons": "^5.0.0",
+    "@keystone-ui-master/popover": "^5.0.1",
     "date-fns": "^2.28.0",
     "react": "^18.1.0",
     "react-day-picker": "^8.0.5",

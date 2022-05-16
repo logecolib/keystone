@@ -3,11 +3,11 @@
 
 import { AllHTMLAttributes, ReactNode, Fragment } from 'react';
 import { useRouter } from 'next/router';
-import { Stack, jsx, useTheme, Text } from '@keystone-ui/core';
-import { Button } from '@keystone-ui/button';
-import { Popover } from '@keystone-ui/popover';
-import { MoreHorizontalIcon } from '@keystone-ui/icons/icons/MoreHorizontalIcon';
-import { ChevronRightIcon } from '@keystone-ui/icons/icons/ChevronRightIcon';
+import { Stack, jsx, useTheme, Text } from '@keystone-ui-master/core';
+import { Button } from '@keystone-ui-master/button';
+import { Popover } from '@keystone-ui-master/popover';
+import { MoreHorizontalIcon } from '@keystone-ui-master/icons/icons/MoreHorizontalIcon';
+import { ChevronRightIcon } from '@keystone-ui-master/icons/icons/ChevronRightIcon';
 import { NavigationProps, ListMeta, AuthenticatedItem } from '../../types';
 
 import { useKeystone } from '../context';

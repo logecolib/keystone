@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import Link from 'next/link';
-import { jsx, H3 } from '@keystone-ui/core';
+import { jsx, H3 } from '@keystone-ui-master/core';
 
 export const CustomLogo = () => {
   return (

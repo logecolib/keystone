@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { useTheme } from '@keystone-ui/core';
-import type { ButtonTokens, WeightKey, ToneKey, SizeKey } from '@keystone-ui/button';
+import { useTheme } from '@keystone-ui-master/core';
+import type { ButtonTokens, WeightKey, ToneKey, SizeKey } from '@keystone-ui-master/button';
 
 type ButtonTokensProps = {
   size: SizeKey;

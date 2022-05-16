@@ -13,17 +13,17 @@ import {
 import { Editor, Transforms } from 'slate';
 import { applyRefs } from 'apply-ref';
 
-import { jsx, useTheme } from '@keystone-ui/core';
-import { useControlledPopover } from '@keystone-ui/popover';
-import { Tooltip } from '@keystone-ui/tooltip';
+import { jsx, useTheme } from '@keystone-ui-master/core';
+import { useControlledPopover } from '@keystone-ui-master/popover';
+import { Tooltip } from '@keystone-ui-master/tooltip';
 
-import { BoldIcon } from '@keystone-ui/icons/icons/BoldIcon';
-import { ItalicIcon } from '@keystone-ui/icons/icons/ItalicIcon';
-import { PlusIcon } from '@keystone-ui/icons/icons/PlusIcon';
-import { ChevronDownIcon } from '@keystone-ui/icons/icons/ChevronDownIcon';
-import { Maximize2Icon } from '@keystone-ui/icons/icons/Maximize2Icon';
-import { Minimize2Icon } from '@keystone-ui/icons/icons/Minimize2Icon';
-import { MoreHorizontalIcon } from '@keystone-ui/icons/icons/MoreHorizontalIcon';
+import { BoldIcon } from '@keystone-ui-master/icons/icons/BoldIcon';
+import { ItalicIcon } from '@keystone-ui-master/icons/icons/ItalicIcon';
+import { PlusIcon } from '@keystone-ui-master/icons/icons/PlusIcon';
+import { ChevronDownIcon } from '@keystone-ui-master/icons/icons/ChevronDownIcon';
+import { Maximize2Icon } from '@keystone-ui-master/icons/icons/Maximize2Icon';
+import { Minimize2Icon } from '@keystone-ui-master/icons/icons/Minimize2Icon';
+import { MoreHorizontalIcon } from '@keystone-ui-master/icons/icons/MoreHorizontalIcon';
 
 import { DocumentFeatures } from '../views';
 import {

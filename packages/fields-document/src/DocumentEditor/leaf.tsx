@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx, useTheme } from '@keystone-ui/core';
+import { jsx, useTheme } from '@keystone-ui-master/core';
 import { ReactNode, useState } from 'react';
 import { RenderLeafProps } from 'slate-react';
 import { InsertMenu } from './insert-menu';

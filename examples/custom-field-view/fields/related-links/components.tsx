@@ -1,9 +1,9 @@
 import React from 'react';
 import { FieldProps } from '@keystone-6-master/core/types';
 import { css } from '@emotion/css';
-import { Button } from '@keystone-ui/button';
-import { FieldContainer, FieldLabel, TextInput } from '@keystone-ui/fields';
-import { MinusCircleIcon, EditIcon } from '@keystone-ui/icons';
+import { Button } from '@keystone-ui-master/button';
+import { FieldContainer, FieldLabel, TextInput } from '@keystone-ui-master/fields';
+import { MinusCircleIcon, EditIcon } from '@keystone-ui-master/icons';
 import { controller } from '@keystone-6-master/core/fields/types/json/views';
 import { Fragment, useState } from 'react';
 

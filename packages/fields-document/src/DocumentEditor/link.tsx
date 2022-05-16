@@ -5,12 +5,12 @@ import { ReactEditor, RenderElementProps, useFocused, useSelected } from 'slate-
 import { Editor, Node, Range, Transforms } from 'slate';
 import { forwardRef, memo, useEffect, useMemo, useState } from 'react';
 
-import { jsx, Portal, useTheme } from '@keystone-ui/core';
-import { useControlledPopover } from '@keystone-ui/popover';
-import { Tooltip } from '@keystone-ui/tooltip';
-import { LinkIcon } from '@keystone-ui/icons/icons/LinkIcon';
-import { Trash2Icon } from '@keystone-ui/icons/icons/Trash2Icon';
-import { ExternalLinkIcon } from '@keystone-ui/icons/icons/ExternalLinkIcon';
+import { jsx, Portal, useTheme } from '@keystone-ui-master/core';
+import { useControlledPopover } from '@keystone-ui-master/popover';
+import { Tooltip } from '@keystone-ui-master/tooltip';
+import { LinkIcon } from '@keystone-ui-master/icons/icons/LinkIcon';
+import { Trash2Icon } from '@keystone-ui-master/icons/icons/Trash2Icon';
+import { ExternalLinkIcon } from '@keystone-ui-master/icons/icons/ExternalLinkIcon';
 
 import { DocumentFeatures } from '../views';
 import { InlineDialog, ToolbarButton, ToolbarGroup, ToolbarSeparator } from './primitives';

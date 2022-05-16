@@ -1,5 +1,5 @@
 {
-  "name": "@keystone-ui/notice",
+  "name": "@keystone-ui-master/notice",
   "version": "5.0.0",
   "license": "MIT",
   "main": "dist/keystone-ui-notice.cjs.js",
@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
-    "@keystone-ui/button": "^6.0.0",
-    "@keystone-ui/core": "^4.0.0",
-    "@keystone-ui/icons": "^5.0.0",
+    "@keystone-ui-master/button": "^6.0.0",
+    "@keystone-ui-master/core": "^4.0.0",
+    "@keystone-ui-master/icons": "^5.0.0",
     "react": "^18.1.0"
   },
   "engines": {

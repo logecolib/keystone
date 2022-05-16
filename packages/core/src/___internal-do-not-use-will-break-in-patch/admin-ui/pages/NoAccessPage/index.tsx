@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx, Stack } from '@keystone-ui/core';
-import { AlertTriangleIcon } from '@keystone-ui/icons/icons/AlertTriangleIcon';
+import { jsx, Stack } from '@keystone-ui-master/core';
+import { AlertTriangleIcon } from '@keystone-ui-master/icons/icons/AlertTriangleIcon';
 import { SignoutButton } from '../../../../admin-ui/components/SignoutButton';
 import { ErrorContainer } from '../../../../admin-ui/components/Errors';
 

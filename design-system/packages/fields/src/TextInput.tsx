@@ -8,7 +8,7 @@
  */
 
 import { InputHTMLAttributes, forwardRef } from 'react';
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@keystone-ui-master/core';
 
 import { useInputStyles, useInputTokens } from './hooks/inputs';
 import type { ShapeType, SizeType, WidthType } from './types';

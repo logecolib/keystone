@@ -2,7 +2,7 @@
 /** @jsx jsx */
 
 import { Fragment, InputHTMLAttributes, ReactNode, forwardRef } from 'react';
-import { jsx, VisuallyHidden } from '@keystone-ui/core';
+import { jsx, VisuallyHidden } from '@keystone-ui-master/core';
 
 import { ControlLabel } from './components/ControlLabel';
 import { CheckIcon } from './components/Icons';

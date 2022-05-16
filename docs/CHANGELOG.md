@@ -111,9 +111,9 @@
 ### Patch Changes
 
 - Updated dependencies [[`df7d7b6f6`](https://github.com/keystonejs/keystone/commit/df7d7b6f6f2830573393560f4a1ec35234889947), [`a3b07ea16`](https://github.com/keystonejs/keystone/commit/a3b07ea16ffc0f6741c0c0e5e281622a1831e0e7), [`8958704ec`](https://github.com/keystonejs/keystone/commit/8958704ec9819cd27ad1cae251628ad38dad1c79)]:
-  - @keystone-ui/fields@4.1.1
+  - @keystone-ui-master/fields@4.1.1
   - @keystone-next/fields-document@7.0.0
-  - @keystone-ui/core@3.1.0
+  - @keystone-ui-master/core@3.1.0
 
 ## 3.1.0
 
@@ -237,7 +237,7 @@
 
 * Updated dependencies [[`5cc35170f`](https://github.com/keystonejs/keystone/commit/5cc35170fd46118089a2a6f863d782aff989bbf0), [`3a7acc2c5`](https://github.com/keystonejs/keystone/commit/3a7acc2c5114fbcbde994d1f4c6cc0b21c572ec0)]:
   - @keystone-next/fields-document@6.0.1
-  - @keystone-ui/fields@4.1.0
+  - @keystone-ui-master/fields@4.1.0
 
 ## 3.0.0
 
@@ -248,13 +248,13 @@
 ### Patch Changes
 
 - Updated dependencies [[`19750d2dc`](https://github.com/keystonejs/keystone/commit/19750d2dc5801cc8d2ffae1f50d1d5ca6ab9407d), [`e2232a553`](https://github.com/keystonejs/keystone/commit/e2232a5537620bd82983ba3f5cff124cec8facab)]:
-  - @keystone-ui/button@5.0.0
-  - @keystone-ui/core@3.0.0
-  - @keystone-ui/fields@4.0.0
-  - @keystone-ui/icons@4.0.0
-  - @keystone-ui/notice@4.0.0
-  - @keystone-ui/toast@4.0.0
-  - @keystone-ui/tooltip@4.0.0
+  - @keystone-ui-master/button@5.0.0
+  - @keystone-ui-master/core@3.0.0
+  - @keystone-ui-master/fields@4.0.0
+  - @keystone-ui-master/icons@4.0.0
+  - @keystone-ui-master/notice@4.0.0
+  - @keystone-ui-master/toast@4.0.0
+  - @keystone-ui-master/tooltip@4.0.0
   - @keystone-next/fields-document@6.0.0
 
 ## 2.0.2
@@ -318,12 +318,12 @@
 
 * Updated dependencies [[`fe55e9289`](https://github.com/keystonejs/keystone/commit/fe55e9289b898bdcb937eb5e981dba2bb58a672f), [`a5627304b`](https://github.com/keystonejs/keystone/commit/a5627304b7921a0f1484d6d08330115d0edbb45b), [`1d85d7ff4`](https://github.com/keystonejs/keystone/commit/1d85d7ff4e8d7795d6e0f82484cf7108d11925db), [`43a0f5429`](https://github.com/keystonejs/keystone/commit/43a0f5429028eb9df53e93f19f2dd6fc328cde32), [`d7e8cad4f`](https://github.com/keystonejs/keystone/commit/d7e8cad4fca5d8ffefa235c2ff30ec8e2e0d6276), [`ecf07393a`](https://github.com/keystonejs/keystone/commit/ecf07393a19714f1686772bd082de7d229065aa2), [`8eebf9195`](https://github.com/keystonejs/keystone/commit/8eebf9195ac625f6642c76ea145642f075e725fe)]:
   - @keystone-next/fields-document@5.0.0
-  - @keystone-ui/button@4.0.0
-  - @keystone-ui/fields@3.0.0
-  - @keystone-ui/icons@3.0.0
-  - @keystone-ui/notice@3.0.0
-  - @keystone-ui/toast@3.0.0
-  - @keystone-ui/tooltip@3.0.0
+  - @keystone-ui-master/button@4.0.0
+  - @keystone-ui-master/fields@3.0.0
+  - @keystone-ui-master/icons@3.0.0
+  - @keystone-ui-master/notice@3.0.0
+  - @keystone-ui-master/toast@3.0.0
+  - @keystone-ui-master/tooltip@3.0.0
 
 ## 1.3.0
 
@@ -341,7 +341,7 @@
 
 - Updated dependencies [[`4fa66ac1f`](https://github.com/keystonejs/keystone/commit/4fa66ac1fc6fd0a43da17dd90797733e8c958785), [`d93bab17b`](https://github.com/keystonejs/keystone/commit/d93bab17b69c76e57580dc00e41314215da6d49b)]:
   - @keystone-next/fields-document@4.0.0
-  - @keystone-ui/fields@2.1.0
+  - @keystone-ui-master/fields@2.1.0
 
 ## 1.2.0
 
@@ -357,9 +357,9 @@
 
 - Updated dependencies [[`8e9b04ecd`](https://github.com/keystonejs/keystone/commit/8e9b04ecd07d9c5d0e6aead4705e7a655498ae05), [`17c86e0c3`](https://github.com/keystonejs/keystone/commit/17c86e0c3eda7ba08d1bb8edf5eb8ddc9a819e5a), [`3a9d20ce1`](https://github.com/keystonejs/keystone/commit/3a9d20ce11463e7f73f6b6325375cdcee17d63ed), [`a4e34e9eb`](https://github.com/keystonejs/keystone/commit/a4e34e9ebb6f746f54ccd898d0aeb4dc5c5d9271)]:
   - @keystone-next/fields-document@3.1.0
-  - @keystone-ui/fields@2.0.2
-  - @keystone-ui/core@2.0.2
-  - @keystone-ui/notice@2.0.2
+  - @keystone-ui-master/fields@2.0.2
+  - @keystone-ui-master/core@2.0.2
+  - @keystone-ui-master/notice@2.0.2
 
 ## 1.1.1
 
@@ -392,13 +392,13 @@
 * [`954083571`](https://github.com/keystonejs/keystone/commit/954083571d8ca8c3b37deb8332f911c4cc755f89) [#4926](https://github.com/keystonejs/keystone/pull/4926) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Added a favicon to @keystone-next/website
 
 * Updated dependencies [[`f4e4498c6`](https://github.com/keystonejs/keystone/commit/f4e4498c6e4c7301288f23048f4aad3c492985c7), [`556c1f95f`](https://github.com/keystonejs/keystone/commit/556c1f95f287035493704d6f5d9744fd5e9774b6), [`556c1f95f`](https://github.com/keystonejs/keystone/commit/556c1f95f287035493704d6f5d9744fd5e9774b6), [`556c1f95f`](https://github.com/keystonejs/keystone/commit/556c1f95f287035493704d6f5d9744fd5e9774b6), [`556c1f95f`](https://github.com/keystonejs/keystone/commit/556c1f95f287035493704d6f5d9744fd5e9774b6), [`3ca5038a0`](https://github.com/keystonejs/keystone/commit/3ca5038a021105a7452f4e7a4641107caa4ffe3a), [`d53eb872f`](https://github.com/keystonejs/keystone/commit/d53eb872ffb0396fcdcae34c380acf9739c8ca5d)]:
-  - @keystone-ui/button@3.0.1
-  - @keystone-ui/core@2.0.1
-  - @keystone-ui/fields@2.0.1
-  - @keystone-ui/icons@2.0.1
-  - @keystone-ui/notice@2.0.1
-  - @keystone-ui/toast@2.0.1
-  - @keystone-ui/tooltip@2.0.1
+  - @keystone-ui-master/button@3.0.1
+  - @keystone-ui-master/core@2.0.1
+  - @keystone-ui-master/fields@2.0.1
+  - @keystone-ui-master/icons@2.0.1
+  - @keystone-ui-master/notice@2.0.1
+  - @keystone-ui-master/toast@2.0.1
+  - @keystone-ui-master/tooltip@2.0.1
   - @keystone-next/fields-document@3.0.0
 
 ## 1.0.0
@@ -412,11 +412,11 @@
 - [`28c2ee5be`](https://github.com/keystonejs/keystone/commit/28c2ee5bee5866c90c6f114e9120f57434f552fe) [#4811](https://github.com/keystonejs/keystone/pull/4811) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Added syntax highlighting to code in mdx.
 
 - Updated dependencies [[`b97216a65`](https://github.com/keystonejs/keystone/commit/b97216a6526fffcca8232d86b115c28cb19587bf)]:
-  - @keystone-ui/button@3.0.0
-  - @keystone-ui/core@2.0.0
-  - @keystone-ui/fields@2.0.0
-  - @keystone-ui/notice@2.0.0
-  - @keystone-ui/tooltip@2.0.0
+  - @keystone-ui-master/button@3.0.0
+  - @keystone-ui-master/core@2.0.0
+  - @keystone-ui-master/fields@2.0.0
+  - @keystone-ui-master/notice@2.0.0
+  - @keystone-ui-master/tooltip@2.0.0
 
 ## 0.1.1
 

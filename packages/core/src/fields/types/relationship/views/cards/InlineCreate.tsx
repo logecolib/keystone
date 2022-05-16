@@ -2,10 +2,10 @@
 /** @jsx jsx */
 
 import { useState } from 'react';
-import { jsx, Stack } from '@keystone-ui/core';
+import { jsx, Stack } from '@keystone-ui-master/core';
 import isDeepEqual from 'fast-deep-equal';
-import { useToasts } from '@keystone-ui/toast';
-import { Button } from '@keystone-ui/button';
+import { useToasts } from '@keystone-ui-master/toast';
+import { Button } from '@keystone-ui-master/button';
 import { ListMeta } from '../../../../../types';
 import {
   ItemData,

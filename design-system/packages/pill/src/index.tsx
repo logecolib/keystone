@@ -1,9 +1,9 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, useTheme } from '@keystone-ui/core';
+import { jsx, useTheme } from '@keystone-ui-master/core';
 import { ButtonHTMLAttributes, HTMLAttributes, forwardRef, ReactNode } from 'react';
 
-import { XIcon } from '@keystone-ui/icons/icons/XIcon';
+import { XIcon } from '@keystone-ui-master/icons/icons/XIcon';
 
 type Tone = 'active' | 'passive' | 'positive' | 'warning' | 'negative' | 'help';
 type Weight = 'bold' | 'light';

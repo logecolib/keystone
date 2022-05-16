@@ -5,13 +5,13 @@ import copy from 'copy-to-clipboard';
 import bytes from 'bytes';
 import { Fragment, ReactNode, RefObject, useEffect, useMemo, useRef, useState } from 'react';
 
-import { jsx, Stack, useTheme, Text, VisuallyHidden } from '@keystone-ui/core';
-import { useToasts } from '@keystone-ui/toast';
-import { TextInput } from '@keystone-ui/fields';
+import { jsx, Stack, useTheme, Text, VisuallyHidden } from '@keystone-ui-master/core';
+import { useToasts } from '@keystone-ui-master/toast';
+import { TextInput } from '@keystone-ui-master/fields';
 
-import { FieldContainer, FieldLabel } from '@keystone-ui/fields';
-import { Pill } from '@keystone-ui/pill';
-import { Button } from '@keystone-ui/button';
+import { FieldContainer, FieldLabel } from '@keystone-ui-master/fields';
+import { Pill } from '@keystone-ui-master/pill';
+import { Button } from '@keystone-ui-master/button';
 import { FieldProps } from '../../../../types';
 import { parseImageRef } from '../utils';
 import { ImageValue } from './index';

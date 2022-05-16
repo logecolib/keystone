@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx, Text, Stack } from '@keystone-ui/core';
+import { jsx, Text, Stack } from '@keystone-ui-master/core';
 
 import { Page } from '../../components/Page';
 import { Code } from '../../components/Code';

@@ -2,9 +2,9 @@
 /** @jsx jsx */
 
 import { Component, ReactNode } from 'react';
-import { Button } from '@keystone-ui/button';
-import { jsx, Box, Center, Stack, useTheme } from '@keystone-ui/core';
-import { AlertTriangleIcon } from '@keystone-ui/icons/icons/AlertTriangleIcon';
+import { Button } from '@keystone-ui-master/button';
+import { jsx, Box, Center, Stack, useTheme } from '@keystone-ui-master/core';
+import { AlertTriangleIcon } from '@keystone-ui-master/icons/icons/AlertTriangleIcon';
 
 type ErrorBoundaryProps = {
   children: ReactNode;

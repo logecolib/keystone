@@ -17,7 +17,7 @@ import {
 import * as focusTrapModule from 'focus-trap';
 import { Options, Placement } from '@popperjs/core';
 import { usePopper } from 'react-popper';
-import { jsx, Portal, useTheme } from '@keystone-ui/core';
+import { jsx, Portal, useTheme } from '@keystone-ui-master/core';
 
 type AnchorElementType = HTMLAnchorElement | HTMLButtonElement | HTMLDivElement | HTMLSpanElement;
 

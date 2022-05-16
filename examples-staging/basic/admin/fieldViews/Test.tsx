@@ -2,8 +2,8 @@
 /** @jsx jsx */
 
 import { FieldProps } from '@keystone-6-master/core/types';
-import { jsx } from '@keystone-ui/core';
-import { FieldContainer, FieldLabel, TextArea, TextInput } from '@keystone-ui/fields';
+import { jsx } from '@keystone-ui-master/core';
+import { FieldContainer, FieldLabel, TextArea, TextInput } from '@keystone-ui-master/fields';
 import { controller } from '@keystone-6-master/core/fields/types/text/views';
 
 export const Field = ({ field, value, onChange, autoFocus }: FieldProps<typeof controller>) => (

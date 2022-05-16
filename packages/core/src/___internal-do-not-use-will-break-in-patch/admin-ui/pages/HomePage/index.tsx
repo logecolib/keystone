@@ -3,10 +3,10 @@
 
 import { ButtonHTMLAttributes, useMemo, useState } from 'react';
 
-import { Center, Inline, Heading, VisuallyHidden, jsx, useTheme } from '@keystone-ui/core';
-import { PlusIcon } from '@keystone-ui/icons/icons/PlusIcon';
-import { DrawerController } from '@keystone-ui/modals';
-import { LoadingDots } from '@keystone-ui/loading';
+import { Center, Inline, Heading, VisuallyHidden, jsx, useTheme } from '@keystone-ui-master/core';
+import { PlusIcon } from '@keystone-ui-master/icons/icons/PlusIcon';
+import { DrawerController } from '@keystone-ui-master/modals';
+import { LoadingDots } from '@keystone-ui-master/loading';
 
 import { makeDataGetter } from '../../../../admin-ui/utils';
 import { CreateItemDrawer } from '../../../../admin-ui/components/CreateItemDrawer';

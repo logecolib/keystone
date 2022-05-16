@@ -5,7 +5,7 @@ import { createContext, Fragment, useContext } from 'react';
 import { ReactEditor, RenderElementProps } from 'slate-react';
 import { Transforms, Editor } from 'slate';
 
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@keystone-ui-master/core';
 import { useKeystone } from '@keystone-6-master/core/admin-ui/context';
 import { RelationshipSelect } from '@keystone-6-master/core/fields/types/relationship/views/RelationshipSelect';
 

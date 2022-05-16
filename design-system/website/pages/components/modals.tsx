@@ -2,9 +2,9 @@
 /** @jsx jsx */
 
 import { useState } from 'react';
-import { jsx, Stack } from '@keystone-ui/core';
-import { Button } from '@keystone-ui/button';
-import { Drawer, DrawerController, AlertDialog } from '@keystone-ui/modals';
+import { jsx, Stack } from '@keystone-ui-master/core';
+import { Button } from '@keystone-ui-master/button';
+import { Drawer, DrawerController, AlertDialog } from '@keystone-ui-master/modals';
 import { Page } from '../../components/Page';
 
 export default function ModalsPage() {

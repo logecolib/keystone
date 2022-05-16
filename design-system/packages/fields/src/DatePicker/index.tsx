@@ -3,8 +3,8 @@
 
 import { Fragment, useCallback, useEffect, useRef, useState } from 'react';
 import FocusLock from 'react-focus-lock';
-import { jsx } from '@keystone-ui/core';
-import { PopoverDialog, useControlledPopover } from '@keystone-ui/popover';
+import { jsx } from '@keystone-ui-master/core';
+import { PopoverDialog, useControlledPopover } from '@keystone-ui-master/popover';
 
 import {
   deserializeDate,

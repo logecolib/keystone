@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx } from '@keystone-ui/core';
-import { FieldContainer, FieldLabel, TextInput } from '@keystone-ui/fields';
+import { jsx } from '@keystone-ui-master/core';
+import { FieldContainer, FieldLabel, TextInput } from '@keystone-ui-master/fields';
 import {
   CardValueComponent,
   CellComponent,

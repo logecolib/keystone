@@ -11,10 +11,10 @@
   "dependencies": {
     "@emotion/css": "^11.9.0",
     "@keystone-6-master/core": "^1.1.1",
-    "@keystone-ui/button": "^6.0.0",
-    "@keystone-ui/core": "^4.0.0",
-    "@keystone-ui/fields": "^6.1.0",
-    "@keystone-ui/icons": "^5.0.0",
+    "@keystone-ui-master/button": "^6.0.0",
+    "@keystone-ui-master/core": "^4.0.0",
+    "@keystone-ui-master/fields": "^6.1.0",
+    "@keystone-ui-master/icons": "^5.0.0",
     "react": "^18.1.0"
   },
   "devDependencies": {

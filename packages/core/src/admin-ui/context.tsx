@@ -1,8 +1,8 @@
 import React, { ReactNode, createContext, useContext, useMemo } from 'react';
-import { Center } from '@keystone-ui/core';
-import { ToastProvider } from '@keystone-ui/toast';
-import { LoadingDots } from '@keystone-ui/loading';
-import { DrawerProvider } from '@keystone-ui/modals';
+import { Center } from '@keystone-ui-master/core';
+import { ToastProvider } from '@keystone-ui-master/toast';
+import { LoadingDots } from '@keystone-ui-master/loading';
+import { DrawerProvider } from '@keystone-ui-master/modals';
 import { createUploadLink } from 'apollo-upload-client';
 import type { AdminConfig, AdminMeta, FieldViews } from '../types';
 import { useAdminMeta } from './utils/useAdminMeta';

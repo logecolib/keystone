@@ -1,4 +1,4 @@
-# @keystone-ui/popover
+# @keystone-ui-master/popover
 
 ## 5.0.1
 
@@ -18,7 +18,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`de8cf44e7`](https://github.com/keystonejs/keystone/commit/de8cf44e7b328ab98e1466d7191d9ee65a57b02a), [`748538649`](https://github.com/keystonejs/keystone/commit/748538649645d3b0ef32b0baba8fa310f2a493fe)]:
-  - @keystone-ui/core@4.0.0
+  - @keystone-ui-master/core@4.0.0
 
 ## 4.0.5
 
@@ -29,7 +29,7 @@
 * [#6754](https://github.com/keystonejs/keystone/pull/6754) [`bed3a560a`](https://github.com/keystonejs/keystone/commit/bed3a560a59d4fe787f3beebd65f8148453aae35) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Updated dist filenames
 
 * Updated dependencies [[`0ef1ee3cc`](https://github.com/keystonejs/keystone/commit/0ef1ee3ccd99f0f3e1f955f03d00b1a0f238c7cd), [`bed3a560a`](https://github.com/keystonejs/keystone/commit/bed3a560a59d4fe787f3beebd65f8148453aae35)]:
-  - @keystone-ui/core@3.2.1
+  - @keystone-ui-master/core@3.2.1
 
 ## 4.0.4
 
@@ -41,10 +41,10 @@
 
 ### Patch Changes
 
-- [#6414](https://github.com/keystonejs/keystone/pull/6414) [`32f024738`](https://github.com/keystonejs/keystone/commit/32f0247384ecf3bce5c3ef14ad8d367c9888459f) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Updated usages of `jsx` from `@keystone-ui/core` to explicitly use `/** @jsxRuntime classic */`
+- [#6414](https://github.com/keystonejs/keystone/pull/6414) [`32f024738`](https://github.com/keystonejs/keystone/commit/32f0247384ecf3bce5c3ef14ad8d367c9888459f) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Updated usages of `jsx` from `@keystone-ui-master/core` to explicitly use `/** @jsxRuntime classic */`
 
 - Updated dependencies [[`32f024738`](https://github.com/keystonejs/keystone/commit/32f0247384ecf3bce5c3ef14ad8d367c9888459f), [`069265b9c`](https://github.com/keystonejs/keystone/commit/069265b9cdd5898f4501535793f56debaa247c1c)]:
-  - @keystone-ui/core@3.2.0
+  - @keystone-ui-master/core@3.2.0
 
 ## 4.0.2
 
@@ -71,7 +71,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`19750d2dc`](https://github.com/keystonejs/keystone/commit/19750d2dc5801cc8d2ffae1f50d1d5ca6ab9407d)]:
-  - @keystone-ui/core@3.0.0
+  - @keystone-ui-master/core@3.0.0
 
 ## 3.1.0
 
@@ -92,7 +92,7 @@
 - [`f4e4498c6`](https://github.com/keystonejs/keystone/commit/f4e4498c6e4c7301288f23048f4aad3c492985c7) [#5018](https://github.com/keystonejs/keystone/pull/5018) Thanks [@bladey](https://github.com/bladey)! - Updated legacy packages to the @keystone-next namespace.
 
 - Updated dependencies [[`f4e4498c6`](https://github.com/keystonejs/keystone/commit/f4e4498c6e4c7301288f23048f4aad3c492985c7), [`3ca5038a0`](https://github.com/keystonejs/keystone/commit/3ca5038a021105a7452f4e7a4641107caa4ffe3a)]:
-  - @keystone-ui/core@2.0.1
+  - @keystone-ui-master/core@2.0.1
 
 ## 2.0.0
 
@@ -103,7 +103,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`b97216a65`](https://github.com/keystonejs/keystone/commit/b97216a6526fffcca8232d86b115c28cb19587bf)]:
-  - @keystone-ui/core@2.0.0
+  - @keystone-ui-master/core@2.0.0
 
 ## 1.1.1
 
@@ -120,7 +120,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`55a04a100`](https://github.com/keystonejs/keystone/commit/55a04a1004b7f15fcd41b4935d74fd1847c9deeb), [`f4a855c71`](https://github.com/keystonejs/keystone/commit/f4a855c71e966ef3ebc894a3b0f1af51e5182394), [`eddd7e795`](https://github.com/keystonejs/keystone/commit/eddd7e79599e20f5bef61f240d874b37d0a084c4)]:
-  - @keystone-ui/core@1.0.3
+  - @keystone-ui-master/core@1.0.3
 
 ## 1.0.0
 
@@ -131,4 +131,4 @@
 ### Patch Changes
 
 - Updated dependencies [[`9d360a67b`](https://github.com/keystonejs/keystone/commit/9d360a67b69ec38e3018fe132b1e34f24956f86c)]:
-  - @keystone-ui/core@1.0.0
+  - @keystone-ui-master/core@1.0.0

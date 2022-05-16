@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { Button } from '@keystone-ui/button';
-import { jsx, Box, Heading, useTheme, makeId, useId } from '@keystone-ui/core';
+import { Button } from '@keystone-ui-master/button';
+import { jsx, Box, Heading, useTheme, makeId, useId } from '@keystone-ui-master/core';
 import { DialogBase } from './DialogBase';
 
 type Action = {

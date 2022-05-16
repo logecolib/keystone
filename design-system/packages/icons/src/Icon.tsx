@@ -2,7 +2,7 @@
 /** @jsx jsx */
 
 import { SVGAttributes, forwardRef, ReactNode } from 'react';
-import { ResponsiveProp, jsx, mapResponsiveProp } from '@keystone-ui/core';
+import { ResponsiveProp, jsx, mapResponsiveProp } from '@keystone-ui-master/core';
 
 export type IconProps = SVGAttributes<SVGSVGElement> & {
   /** The color for the SVG fill property. */

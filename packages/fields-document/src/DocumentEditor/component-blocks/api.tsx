@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@keystone-ui-master/core';
 import {
   FieldContainer,
   FieldLabel,
@@ -8,7 +8,7 @@ import {
   TextInput,
   Checkbox,
   MultiSelect,
-} from '@keystone-ui/fields';
+} from '@keystone-ui-master/fields';
 import { HTMLAttributes, ReactElement, ReactNode, useState } from 'react';
 import { isValidURL } from '../isValidURL';
 

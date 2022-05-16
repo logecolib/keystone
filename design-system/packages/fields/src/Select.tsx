@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, useTheme } from '@keystone-ui/core';
+import { jsx, useTheme } from '@keystone-ui-master/core';
 import ReactSelect, { Options, mergeStyles, Props } from 'react-select';
 import { useInputTokens } from './hooks/inputs';
 import { WidthType } from './types';

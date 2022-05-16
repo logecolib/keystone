@@ -2,7 +2,7 @@
 /** @jsx jsx */
 
 import { ComponentPropsWithoutRef } from 'react';
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@keystone-ui-master/core';
 
 /**
  * NOTE: should probably come from the DS?

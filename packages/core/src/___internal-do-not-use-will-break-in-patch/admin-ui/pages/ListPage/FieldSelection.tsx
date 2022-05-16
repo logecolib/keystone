@@ -1,10 +1,10 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { Button } from '@keystone-ui/button';
-import { Box, jsx } from '@keystone-ui/core';
-import { ChevronDownIcon } from '@keystone-ui/icons/icons/ChevronDownIcon';
-import { Options, OptionPrimitive, CheckMark } from '@keystone-ui/options';
-import { Popover } from '@keystone-ui/popover';
+import { Button } from '@keystone-ui-master/button';
+import { Box, jsx } from '@keystone-ui-master/core';
+import { ChevronDownIcon } from '@keystone-ui-master/icons/icons/ChevronDownIcon';
+import { Options, OptionPrimitive, CheckMark } from '@keystone-ui-master/options';
+import { Popover } from '@keystone-ui-master/popover';
 import { useRouter } from 'next/router';
 import { ListMeta } from '../../../../types';
 import { useSelectedFields } from './useSelectedFields';

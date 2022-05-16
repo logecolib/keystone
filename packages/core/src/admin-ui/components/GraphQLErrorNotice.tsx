@@ -1,5 +1,5 @@
-import { Stack } from '@keystone-ui/core';
-import { Notice } from '@keystone-ui/notice';
+import { Stack } from '@keystone-ui-master/core';
+import { Notice } from '@keystone-ui-master/notice';
 import { GraphQLError } from 'graphql';
 import React from 'react';
 

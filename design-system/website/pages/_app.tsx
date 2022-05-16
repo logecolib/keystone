@@ -1,7 +1,7 @@
 import React from 'react';
-import { Core } from '@keystone-ui/core';
-import { DrawerProvider } from '@keystone-ui/modals';
-import { ToastProvider } from '@keystone-ui/toast';
+import { Core } from '@keystone-ui-master/core';
+import { DrawerProvider } from '@keystone-ui-master/modals';
+import { ToastProvider } from '@keystone-ui-master/toast';
 import type { AppProps } from 'next/app';
 
 export default function App({ Component, pageProps }: AppProps) {

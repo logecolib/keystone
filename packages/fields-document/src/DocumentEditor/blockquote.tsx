@@ -5,8 +5,8 @@ import { ComponentProps, Fragment, useMemo } from 'react';
 import { Editor, Node, Path, Range, Transforms } from 'slate';
 import { RenderElementProps } from 'slate-react';
 
-import { jsx, useTheme } from '@keystone-ui/core';
-import { Tooltip } from '@keystone-ui/tooltip';
+import { jsx, useTheme } from '@keystone-ui-master/core';
+import { Tooltip } from '@keystone-ui-master/tooltip';
 
 import { IconBase } from './Toolbar';
 import { KeyboardInTooltip, ToolbarButton } from './primitives';

@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Stack, useTheme } from '@keystone-ui/core';
-import { Checkbox, FieldContainer, FieldLabel, TextArea, TextInput } from '@keystone-ui/fields';
+import { jsx, Stack, useTheme } from '@keystone-ui-master/core';
+import { Checkbox, FieldContainer, FieldLabel, TextArea, TextInput } from '@keystone-ui-master/fields';
 import { useState } from 'react';
 import {
   CardValueComponent,

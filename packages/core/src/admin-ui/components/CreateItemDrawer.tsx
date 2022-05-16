@@ -3,10 +3,10 @@
 
 import { useCallback, useMemo, useState } from 'react';
 import isDeepEqual from 'fast-deep-equal';
-import { jsx, Box } from '@keystone-ui/core';
-import { Drawer } from '@keystone-ui/modals';
-import { useToasts } from '@keystone-ui/toast';
-import { LoadingDots } from '@keystone-ui/loading';
+import { jsx, Box } from '@keystone-ui-master/core';
+import { Drawer } from '@keystone-ui-master/modals';
+import { useToasts } from '@keystone-ui-master/toast';
+import { LoadingDots } from '@keystone-ui-master/loading';
 
 import { gql, useMutation } from '../apollo';
 import { useKeystone, useList } from '../context';

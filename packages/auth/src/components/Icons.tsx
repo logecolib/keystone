@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { forwardRefWithAs, jsx } from '@keystone-ui/core';
+import { forwardRefWithAs, jsx } from '@keystone-ui-master/core';
 
 const Icon = ({ children, ...props }: React.AnchorHTMLAttributes<HTMLAnchorElement>) => {
   return (

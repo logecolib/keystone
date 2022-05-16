@@ -2,7 +2,7 @@
 /** @jsx jsx */
 
 import { ButtonHTMLAttributes, HTMLAttributes, createContext, useContext, ReactNode } from 'react';
-import { Box, MarginProps, forwardRefWithAs, jsx, useTheme } from '@keystone-ui/core';
+import { Box, MarginProps, forwardRefWithAs, jsx, useTheme } from '@keystone-ui-master/core';
 
 // Spacers and Separators
 // ------------------------------

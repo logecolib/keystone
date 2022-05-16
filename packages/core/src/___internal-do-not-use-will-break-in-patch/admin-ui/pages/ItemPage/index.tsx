@@ -16,16 +16,16 @@ import {
   useState,
 } from 'react';
 
-import { Button } from '@keystone-ui/button';
-import { Box, Center, Heading, Stack, Text, jsx, useTheme } from '@keystone-ui/core';
-import { LoadingDots } from '@keystone-ui/loading';
-import { ClipboardIcon } from '@keystone-ui/icons/icons/ClipboardIcon';
-import { ChevronRightIcon } from '@keystone-ui/icons/icons/ChevronRightIcon';
-import { AlertDialog, DrawerController } from '@keystone-ui/modals';
-import { Notice } from '@keystone-ui/notice';
-import { useToasts } from '@keystone-ui/toast';
-import { Tooltip } from '@keystone-ui/tooltip';
-import { FieldLabel, TextInput } from '@keystone-ui/fields';
+import { Button } from '@keystone-ui-master/button';
+import { Box, Center, Heading, Stack, Text, jsx, useTheme } from '@keystone-ui-master/core';
+import { LoadingDots } from '@keystone-ui-master/loading';
+import { ClipboardIcon } from '@keystone-ui-master/icons/icons/ClipboardIcon';
+import { ChevronRightIcon } from '@keystone-ui-master/icons/icons/ChevronRightIcon';
+import { AlertDialog, DrawerController } from '@keystone-ui-master/modals';
+import { Notice } from '@keystone-ui-master/notice';
+import { useToasts } from '@keystone-ui-master/toast';
+import { Tooltip } from '@keystone-ui-master/tooltip';
+import { FieldLabel, TextInput } from '@keystone-ui-master/fields';
 import { ListMeta } from '../../../../types';
 import {
   DataGetter,

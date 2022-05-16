@@ -4,8 +4,8 @@
 import 'intersection-observer';
 import { RefObject, useEffect, useMemo, useState, createContext, useContext, useRef } from 'react';
 
-import { jsx } from '@keystone-ui/core';
-import { MultiSelect, Select, selectComponents } from '@keystone-ui/fields';
+import { jsx } from '@keystone-ui-master/core';
+import { MultiSelect, Select, selectComponents } from '@keystone-ui-master/fields';
 import { validate as validateUUID } from 'uuid';
 import { IdFieldConfig, ListMeta } from '../../../../types';
 import {

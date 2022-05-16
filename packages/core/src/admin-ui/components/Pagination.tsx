@@ -1,9 +1,9 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { useEffect } from 'react';
-import { jsx, Stack, useTheme } from '@keystone-ui/core';
-import { Select } from '@keystone-ui/fields';
-import { ChevronRightIcon, ChevronLeftIcon } from '@keystone-ui/icons';
+import { jsx, Stack, useTheme } from '@keystone-ui-master/core';
+import { Select } from '@keystone-ui-master/fields';
+import { ChevronRightIcon, ChevronLeftIcon } from '@keystone-ui-master/icons';
 import { Link, useRouter } from '../router';
 
 interface PaginationProps {

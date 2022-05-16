@@ -3,7 +3,7 @@
 
 import { ReactNode, forwardRef, useMemo } from 'react';
 import { Editor, Element, Node, Path, Transforms, Range } from 'slate';
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@keystone-ui-master/core';
 
 import { isElementActive, moveChildren, nodeTypeMatcher } from './utils';
 import { ToolbarButton } from './primitives';

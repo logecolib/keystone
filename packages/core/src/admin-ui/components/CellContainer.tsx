@@ -2,7 +2,7 @@
 /** @jsx jsx */
 
 import { ReactNode } from 'react';
-import { jsx, useTheme } from '@keystone-ui/core';
+import { jsx, useTheme } from '@keystone-ui-master/core';
 
 /**
  * This is the component you should use when you want the standard padding around a cell value

@@ -3,13 +3,13 @@
 
 import { Fragment, HTMLAttributes, ReactNode, useEffect, useMemo, useState } from 'react';
 
-import { Button } from '@keystone-ui/button';
-import { Box, Center, Heading, jsx, Stack, useTheme, VisuallyHidden } from '@keystone-ui/core';
-import { CheckboxControl } from '@keystone-ui/fields';
-import { ArrowRightCircleIcon } from '@keystone-ui/icons/icons/ArrowRightCircleIcon';
-import { LoadingDots } from '@keystone-ui/loading';
-import { AlertDialog, DrawerController } from '@keystone-ui/modals';
-import { useToasts } from '@keystone-ui/toast';
+import { Button } from '@keystone-ui-master/button';
+import { Box, Center, Heading, jsx, Stack, useTheme, VisuallyHidden } from '@keystone-ui-master/core';
+import { CheckboxControl } from '@keystone-ui-master/fields';
+import { ArrowRightCircleIcon } from '@keystone-ui-master/icons/icons/ArrowRightCircleIcon';
+import { LoadingDots } from '@keystone-ui-master/loading';
+import { AlertDialog, DrawerController } from '@keystone-ui-master/modals';
+import { useToasts } from '@keystone-ui-master/toast';
 
 import { ListMeta } from '../../../../types';
 import {

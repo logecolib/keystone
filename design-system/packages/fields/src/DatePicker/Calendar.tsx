@@ -2,7 +2,7 @@
 /** @jsx jsx */
 
 import { DayPicker, DayPickerProps } from 'react-day-picker';
-import { jsx, useTheme } from '@keystone-ui/core';
+import { jsx, useTheme } from '@keystone-ui-master/core';
 import { getContrastText } from './utils/getContrastText';
 import { hexToRgb } from './utils/hexToRgb';
 

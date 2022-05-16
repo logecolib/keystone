@@ -1,10 +1,10 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from '@keystone-ui/core';
-import { Tooltip } from '@keystone-ui/tooltip';
+import { jsx } from '@keystone-ui-master/core';
+import { Tooltip } from '@keystone-ui-master/tooltip';
 import { useMemo, Fragment } from 'react';
 import { Editor, Transforms, Element, Text, Range, Point } from 'slate';
-import { CodeIcon } from '@keystone-ui/icons/icons/CodeIcon';
+import { CodeIcon } from '@keystone-ui-master/icons/icons/CodeIcon';
 import { ToolbarButton, KeyboardInTooltip } from './primitives';
 import { useToolbarState } from './toolbar-state';
 

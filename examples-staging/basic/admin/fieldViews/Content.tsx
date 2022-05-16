@@ -1,13 +1,13 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx, useTheme } from '@keystone-ui/core';
-import { InfoIcon } from '@keystone-ui/icons/icons/InfoIcon';
-import { AlertTriangleIcon } from '@keystone-ui/icons/icons/AlertTriangleIcon';
-import { AlertOctagonIcon } from '@keystone-ui/icons/icons/AlertOctagonIcon';
-import { CheckCircleIcon } from '@keystone-ui/icons/icons/CheckCircleIcon';
-import { Trash2Icon } from '@keystone-ui/icons/icons/Trash2Icon';
-import { Tooltip } from '@keystone-ui/tooltip';
+import { jsx, useTheme } from '@keystone-ui-master/core';
+import { InfoIcon } from '@keystone-ui-master/icons/icons/InfoIcon';
+import { AlertTriangleIcon } from '@keystone-ui-master/icons/icons/AlertTriangleIcon';
+import { AlertOctagonIcon } from '@keystone-ui-master/icons/icons/AlertOctagonIcon';
+import { CheckCircleIcon } from '@keystone-ui-master/icons/icons/CheckCircleIcon';
+import { Trash2Icon } from '@keystone-ui-master/icons/icons/Trash2Icon';
+import { Tooltip } from '@keystone-ui-master/tooltip';
 import { component, fields, NotEditable } from '@keystone-6-master/fields-document/component-blocks';
 import {
   ToolbarButton,

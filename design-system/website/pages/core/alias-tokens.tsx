@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx, useTheme, Inline } from '@keystone-ui/core';
+import { jsx, useTheme, Inline } from '@keystone-ui-master/core';
 
 import { Fragment } from 'react';
 import { Page } from '../../components/Page';

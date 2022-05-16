@@ -31,7 +31,7 @@ import {
   useId,
   useTheme,
   VisuallyHidden,
-} from '@keystone-ui/core';
+} from '@keystone-ui-master/core';
 
 import { SizeKey, WidthKey, useControlTokens } from './hooks/segmentedControl';
 

@@ -3,13 +3,13 @@
 
 import { Fragment, useState } from 'react';
 
-import { Button } from '@keystone-ui/button';
-import { Stack, Text, VisuallyHidden, jsx, useTheme } from '@keystone-ui/core';
-import { FieldContainer, FieldLabel, TextInput } from '@keystone-ui/fields';
-import { EyeIcon } from '@keystone-ui/icons/icons/EyeIcon';
-import { EyeOffIcon } from '@keystone-ui/icons/icons/EyeOffIcon';
-import { XIcon } from '@keystone-ui/icons/icons/XIcon';
-import { SegmentedControl } from '@keystone-ui/segmented-control';
+import { Button } from '@keystone-ui-master/button';
+import { Stack, Text, VisuallyHidden, jsx, useTheme } from '@keystone-ui-master/core';
+import { FieldContainer, FieldLabel, TextInput } from '@keystone-ui-master/fields';
+import { EyeIcon } from '@keystone-ui-master/icons/icons/EyeIcon';
+import { EyeOffIcon } from '@keystone-ui-master/icons/icons/EyeOffIcon';
+import { XIcon } from '@keystone-ui-master/icons/icons/XIcon';
+import { SegmentedControl } from '@keystone-ui-master/segmented-control';
 // @ts-ignore
 import dumbPasswords from 'dumb-passwords';
 import {

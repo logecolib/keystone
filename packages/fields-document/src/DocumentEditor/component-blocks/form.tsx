@@ -1,9 +1,9 @@
 import { useKeystone } from '@keystone-6-master/core/admin-ui/context';
 import { RelationshipSelect } from '@keystone-6-master/core/fields/types/relationship/views/RelationshipSelect';
-import { Stack } from '@keystone-ui/core';
-import { FieldContainer, FieldLabel } from '@keystone-ui/fields';
+import { Stack } from '@keystone-ui-master/core';
+import { FieldContainer, FieldLabel } from '@keystone-ui-master/fields';
 import React, { useState } from 'react';
-import { Button as KeystoneUIButton } from '@keystone-ui/button';
+import { Button as KeystoneUIButton } from '@keystone-ui-master/button';
 import { ComponentPropField, RelationshipData, ComponentBlock } from '../../component-blocks';
 import { assertNever, getPropsForConditionalChange } from './utils';
 import { RelationshipField } from './api';

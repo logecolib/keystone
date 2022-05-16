@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { PageContainer } from '@keystone-6-master/core/admin-ui/components';
-import { jsx, Heading } from '@keystone-ui/core';
+import { jsx, Heading } from '@keystone-ui-master/core';
 // Please note that while this capability is driven by Next.js's pages directory
 // We do not currently support any of the auxillary methods that Next.js provides i.e. `getStaticProps`
 // Presently the only export from the directory that is supported is the page component itself.

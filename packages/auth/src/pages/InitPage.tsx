@@ -4,9 +4,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import fetch from 'cross-fetch';
 
-import { jsx, H1, Stack, Inline, VisuallyHidden, Center } from '@keystone-ui/core';
-import { Button } from '@keystone-ui/button';
-import { Checkbox, TextInput } from '@keystone-ui/fields';
+import { jsx, H1, Stack, Inline, VisuallyHidden, Center } from '@keystone-ui-master/core';
+import { Button } from '@keystone-ui-master/button';
+import { Checkbox, TextInput } from '@keystone-ui-master/fields';
 import { useRawKeystone } from '@keystone-6-master/core/admin-ui/context';
 import { FieldMeta } from '@keystone-6-master/core/types';
 import isDeepEqual from 'fast-deep-equal';
@@ -20,7 +20,7 @@ import {
   serializeValueToObjByFieldKey,
   useInvalidFields,
 } from '@keystone-6-master/core/admin-ui/utils';
-import { LoadingDots } from '@keystone-ui/loading';
+import { LoadingDots } from '@keystone-ui-master/loading';
 import { guessEmailFromValue, validEmail } from '../lib/emailHeuristics';
 import { IconTwitter, IconGithub } from '../components/Icons';
 import { SigninContainer } from '../components/SigninContainer';

@@ -1,5 +1,5 @@
 {
-  "name": "@keystone-ui/core",
+  "name": "@keystone-ui-master/core",
   "version": "4.0.0",
   "license": "MIT",
   "main": "dist/keystone-ui-core.cjs.js",

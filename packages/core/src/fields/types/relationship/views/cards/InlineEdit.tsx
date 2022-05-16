@@ -1,11 +1,11 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { Button } from '@keystone-ui/button';
-import { jsx, Stack } from '@keystone-ui/core';
-import { useToasts } from '@keystone-ui/toast';
+import { Button } from '@keystone-ui-master/button';
+import { jsx, Stack } from '@keystone-ui-master/core';
+import { useToasts } from '@keystone-ui-master/toast';
 import { useCallback, useState } from 'react';
-import { Tooltip } from '@keystone-ui/tooltip';
+import { Tooltip } from '@keystone-ui-master/tooltip';
 import { ListMeta } from '../../../../../types';
 import {
   deserializeValue,

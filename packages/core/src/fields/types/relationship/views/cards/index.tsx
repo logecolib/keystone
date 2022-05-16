@@ -11,12 +11,12 @@ import {
   useTheme,
   forwardRefWithAs,
   VisuallyHidden,
-} from '@keystone-ui/core';
+} from '@keystone-ui-master/core';
 
-import { FieldContainer, FieldLabel } from '@keystone-ui/fields';
-import { Button } from '@keystone-ui/button';
-import { Tooltip } from '@keystone-ui/tooltip';
-import { LoadingDots } from '@keystone-ui/loading';
+import { FieldContainer, FieldLabel } from '@keystone-ui-master/fields';
+import { Button } from '@keystone-ui-master/button';
+import { Tooltip } from '@keystone-ui-master/tooltip';
+import { LoadingDots } from '@keystone-ui-master/loading';
 import { useEffect, useRef, useState } from 'react';
 import { FieldProps, ListMeta } from '../../../../../types';
 import {

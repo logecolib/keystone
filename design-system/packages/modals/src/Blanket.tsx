@@ -2,7 +2,7 @@
 /** @jsx jsx */
 
 import { HTMLAttributes, forwardRef } from 'react';
-import { jsx, keyframes, useTheme } from '@keystone-ui/core';
+import { jsx, keyframes, useTheme } from '@keystone-ui-master/core';
 
 const fadeInAnim = keyframes({
   from: {

@@ -2,7 +2,7 @@
 /** @jsx jsx */
 
 import { ElementType, ReactNode, createContext, useContext } from 'react';
-import { jsx, forwardRefWithAs, useTheme } from '@keystone-ui/core';
+import { jsx, forwardRefWithAs, useTheme } from '@keystone-ui-master/core';
 
 // todo - these also exist at ../../types
 export type SizeType = 'small' | 'medium';

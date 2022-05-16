@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx, Box, useTheme } from '@keystone-ui/core';
+import { jsx, Box, useTheme } from '@keystone-ui-master/core';
 
 import { Page } from '../../components/Page';
 import { Code } from '../../components/Code';

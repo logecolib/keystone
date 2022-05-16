@@ -2,8 +2,8 @@
 /** @jsx jsx */
 import { useState } from 'react';
 
-import { jsx, Inline, Stack, VisuallyHidden, Text } from '@keystone-ui/core';
-import { FieldContainer, FieldLabel, TextInput, DatePicker } from '@keystone-ui/fields';
+import { jsx, Inline, Stack, VisuallyHidden, Text } from '@keystone-ui-master/core';
+import { FieldContainer, FieldLabel, TextInput, DatePicker } from '@keystone-ui-master/fields';
 import {
   CardValueComponent,
   CellComponent,

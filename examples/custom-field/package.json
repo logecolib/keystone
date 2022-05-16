@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@keystone-6-master/core": "^1.1.1",
-    "@keystone-ui/fields": "^6.1.0",
+    "@keystone-ui-master/fields": "^6.1.0",
     "react": "^18.1.0"
   },
   "devDependencies": {

@@ -5,9 +5,9 @@ import { Fragment, ReactElement, createContext, useContext, useState, useMemo } 
 import { ReactEditor, RenderElementProps, useFocused, useSelected } from 'slate-react';
 import { Editor, Element, Transforms } from 'slate';
 
-import { jsx, useTheme } from '@keystone-ui/core';
-import { Trash2Icon } from '@keystone-ui/icons/icons/Trash2Icon';
-import { Tooltip } from '@keystone-ui/tooltip';
+import { jsx, useTheme } from '@keystone-ui-master/core';
+import { Trash2Icon } from '@keystone-ui-master/icons/icons/Trash2Icon';
+import { Tooltip } from '@keystone-ui-master/tooltip';
 
 import { NotEditable } from '../../component-blocks';
 

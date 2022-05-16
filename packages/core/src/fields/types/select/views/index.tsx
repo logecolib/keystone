@@ -1,11 +1,11 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { Fragment, useState } from 'react';
-import { jsx, Stack } from '@keystone-ui/core';
-import { FieldContainer, FieldLabel, MultiSelect, Select } from '@keystone-ui/fields';
-import { SegmentedControl } from '@keystone-ui/segmented-control';
-import { Button } from '@keystone-ui/button';
-import { Text } from '@keystone-ui/core';
+import { jsx, Stack } from '@keystone-ui-master/core';
+import { FieldContainer, FieldLabel, MultiSelect, Select } from '@keystone-ui-master/fields';
+import { SegmentedControl } from '@keystone-ui-master/segmented-control';
+import { Button } from '@keystone-ui-master/button';
+import { Text } from '@keystone-ui-master/core';
 import {
   CardValueComponent,
   CellComponent,

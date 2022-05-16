@@ -1,5 +1,5 @@
 {
-  "name": "@keystone-ui/loading",
+  "name": "@keystone-ui-master/loading",
   "version": "5.0.0",
   "license": "MIT",
   "main": "dist/keystone-ui-loading.cjs.js",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
-    "@keystone-ui/core": "^4.0.0",
+    "@keystone-ui-master/core": "^4.0.0",
     "react": "^18.1.0"
   },
   "engines": {

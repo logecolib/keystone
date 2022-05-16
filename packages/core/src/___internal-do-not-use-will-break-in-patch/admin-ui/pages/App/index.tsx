@@ -1,5 +1,5 @@
 import React from 'react';
-import { Core } from '@keystone-ui/core';
+import { Core } from '@keystone-ui-master/core';
 import { AppProps } from 'next/app';
 import { DocumentNode } from 'graphql';
 import { AdminConfig, FieldViews } from '../../../../types';

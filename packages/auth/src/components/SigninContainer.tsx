@@ -3,7 +3,7 @@
 
 import { ReactNode } from 'react';
 
-import { jsx, Box, Center, useTheme } from '@keystone-ui/core';
+import { jsx, Box, Center, useTheme } from '@keystone-ui-master/core';
 
 type SigninContainerProps = {
   children: ReactNode;

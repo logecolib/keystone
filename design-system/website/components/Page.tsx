@@ -2,7 +2,7 @@
 /** @jsx jsx */
 
 import type { HTMLAttributes, ReactNode } from 'react';
-import { jsx, useTheme } from '@keystone-ui/core';
+import { jsx, useTheme } from '@keystone-ui-master/core';
 
 import { Navigation } from './Navigation';
 

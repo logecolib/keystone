@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx, useTheme } from '@keystone-ui/core';
-import { Checkbox, FieldContainer, FieldLabel } from '@keystone-ui/fields';
+import { jsx, useTheme } from '@keystone-ui-master/core';
+import { Checkbox, FieldContainer, FieldLabel } from '@keystone-ui-master/fields';
 import {
   CardValueComponent,
   CellComponent,

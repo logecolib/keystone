@@ -3,10 +3,10 @@
 
 import { Fragment, useState } from 'react';
 
-import { Button } from '@keystone-ui/button';
-import { jsx, Stack, useTheme } from '@keystone-ui/core';
-import { FieldContainer, FieldLabel, FieldLegend } from '@keystone-ui/fields';
-import { DrawerController } from '@keystone-ui/modals';
+import { Button } from '@keystone-ui-master/button';
+import { jsx, Stack, useTheme } from '@keystone-ui-master/core';
+import { FieldContainer, FieldLabel, FieldLegend } from '@keystone-ui-master/fields';
+import { DrawerController } from '@keystone-ui-master/modals';
 import {
   CardValueComponent,
   CellComponent,

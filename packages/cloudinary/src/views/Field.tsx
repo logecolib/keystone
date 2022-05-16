@@ -1,12 +1,12 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx, Stack, useTheme } from '@keystone-ui/core';
+import { jsx, Stack, useTheme } from '@keystone-ui-master/core';
 import { useEffect, useMemo, useRef, useState } from 'react';
 
-import { FieldContainer, FieldLabel } from '@keystone-ui/fields';
-import { Pill } from '@keystone-ui/pill';
-import { Button } from '@keystone-ui/button';
+import { FieldContainer, FieldLabel } from '@keystone-ui-master/fields';
+import { Pill } from '@keystone-ui-master/pill';
+import { Button } from '@keystone-ui-master/button';
 import { FieldProps } from '@keystone-6-master/core/types';
 
 function useObjectURL(fileData: File | undefined) {

@@ -2,9 +2,9 @@
 /** @jsx jsx */
 
 import { ButtonHTMLAttributes, forwardRef } from 'react';
-import { jsx, useTheme, VisuallyHidden } from '@keystone-ui/core';
-import { XIcon } from '@keystone-ui/icons/icons/XIcon';
-import { CalendarIcon } from '@keystone-ui/icons/icons/CalendarIcon';
+import { jsx, useTheme, VisuallyHidden } from '@keystone-ui-master/core';
+import { XIcon } from '@keystone-ui-master/icons/icons/XIcon';
+import { CalendarIcon } from '@keystone-ui-master/icons/icons/CalendarIcon';
 import { useInputTokens, useInputStyles } from '../..';
 import { Adornment, AdornmentWrapper } from './Adornments';
 

@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx } from '@keystone-ui/core';
-import { Notice, noticeToneValues } from '@keystone-ui/notice';
+import { jsx } from '@keystone-ui-master/core';
+import { Notice, noticeToneValues } from '@keystone-ui-master/notice';
 
 import { Page } from '../../components/Page';
 import { toLabel, aAn } from '../../utils';

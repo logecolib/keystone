@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx, useTheme, H3 } from '@keystone-ui/core';
+import { jsx, useTheme, H3 } from '@keystone-ui-master/core';
 import Link from 'next/link';
 
 import { useKeystone } from '../context';

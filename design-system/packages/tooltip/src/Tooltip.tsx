@@ -15,8 +15,8 @@ import {
   ReactNode,
 } from 'react';
 import { applyRefs } from 'apply-ref';
-import { jsx, useId, useTheme, Portal } from '@keystone-ui/core';
-import { usePopover } from '@keystone-ui/popover';
+import { jsx, useId, useTheme, Portal } from '@keystone-ui-master/core';
+import { usePopover } from '@keystone-ui-master/popover';
 
 type Weights = 'bold' | 'subtle';
 

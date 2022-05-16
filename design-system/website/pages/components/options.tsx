@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { jsx } from '@keystone-ui/core';
-import { Options, CheckMark } from '@keystone-ui/options';
+import { jsx } from '@keystone-ui-master/core';
+import { Options, CheckMark } from '@keystone-ui-master/options';
 import { ComponentProps, useState } from 'react';
 
 import { Page } from '../../components/Page';

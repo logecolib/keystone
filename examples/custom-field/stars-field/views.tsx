@@ -1,5 +1,5 @@
 import React from 'react';
-import { FieldContainer, FieldLabel, TextInput } from '@keystone-ui/fields';
+import { FieldContainer, FieldLabel, TextInput } from '@keystone-ui-master/fields';
 import { CellLink, CellContainer } from '@keystone-6-master/core/admin-ui/components';
 
 import {

@@ -1,5 +1,5 @@
 {
-  "name": "@keystone-ui/toast",
+  "name": "@keystone-ui-master/toast",
   "version": "5.0.0",
   "license": "MIT",
   "main": "dist/keystone-ui-toast.cjs.js",
@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
-    "@keystone-ui/core": "^4.0.0",
-    "@keystone-ui/icons": "^5.0.0"
+    "@keystone-ui-master/core": "^4.0.0",
+    "@keystone-ui-master/icons": "^5.0.0"
   },
   "peerDependencies": {
     "react": "^18.1.0"

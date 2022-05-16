@@ -1,7 +1,7 @@
-import { text } from '@keystone-6/core/fields';
-import { list } from '@keystone-6/core';
-import { setupTestRunner } from '@keystone-6/core/testing';
-import type { BaseFields } from '@keystone-6/core/types';
+import { text } from '@keystone-6-master/core/fields';
+import { list } from '@keystone-6-master/core';
+import { setupTestRunner } from '@keystone-6-master/core/testing';
+import type { BaseFields } from '@keystone-6-master/core/types';
 import { apiTestConfig } from '../utils';
 
 const setupList = (fields: BaseFields<any>) =>

@@ -1,13 +1,13 @@
 import path from 'path';
 import fs from 'fs/promises';
 import { format } from 'util';
-import { createSystem, initConfig } from '@keystone-6/core/system';
+import { createSystem, initConfig } from '@keystone-6-master/core/system';
 import {
   validateCommittedArtifacts,
   generateNodeModulesArtifacts,
   generateCommittedArtifacts,
-} from '@keystone-6/core/artifacts';
-import { requireSource } from '@keystone-6/core/___internal-do-not-use-will-break-in-patch/require-source';
+} from '@keystone-6-master/core/artifacts';
+import { requireSource } from '@keystone-6-master/core/___internal-do-not-use-will-break-in-patch/require-source';
 
 const mode = process.env.UPDATE_SCHEMAS ? 'generate' : 'validate';
 

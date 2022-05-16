@@ -1,6 +1,6 @@
-import { list } from '@keystone-6/core';
-import { text, relationship, password, timestamp, select } from '@keystone-6/core/fields';
-import { document } from '@keystone-6/fields-document';
+import { list } from '@keystone-6-master/core';
+import { text, relationship, password, timestamp, select } from '@keystone-6-master/core/fields';
+import { document } from '@keystone-6-master/fields-document';
 
 export const lists = {
   User: list({

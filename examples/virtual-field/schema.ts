@@ -1,5 +1,5 @@
-import { list, graphql } from '@keystone-6/core';
-import { select, relationship, text, timestamp, virtual } from '@keystone-6/core/fields';
+import { list, graphql } from '@keystone-6-master/core';
+import { select, relationship, text, timestamp, virtual } from '@keystone-6-master/core/fields';
 import { Lists } from '.keystone/types';
 
 export const lists: Lists = {

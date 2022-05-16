@@ -64,7 +64,7 @@ export const appTemplate = (
     return serializePathForImport(viewPath);
   });
   // -- TEMPLATE START
-  return `import { getApp } from '@keystone-6/core/___internal-do-not-use-will-break-in-patch/admin-ui/pages/App';
+  return `import { getApp } from '@keystone-6-master/core/___internal-do-not-use-will-break-in-patch/admin-ui/pages/App';
 
 ${allViews.map((views, i) => `import * as view${i} from ${views};`).join('\n')}
 

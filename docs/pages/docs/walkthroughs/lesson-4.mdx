@@ -13,8 +13,8 @@ In the [last lesson](/docs/walkthroughs/lesson-3) we setup a publishing workflow
 
 ```ts
 //keystone.ts
-import { list, config } from '@keystone-6/core';
-import { text, timestamp, select, relationship } from '@keystone-6/core/fields';
+import { list, config } from '@keystone-6-master/core';
+import { text, timestamp, select, relationship } from '@keystone-6-master/core/fields';
 
 const lists = {
   User: list({
@@ -58,8 +58,8 @@ While Keystone has very granular permissions controls, which you can read about 
 Keystone’s [password](/docs/apis/fields#password) field takes care of hashing the password for storing in the database, as well as UI niceties such as making sure the password is obscured. Let’s add it to our `User` list so they can securely log in to Keystone:
 
 ```ts{2,10}[13-27,29-500]
-import { list, config } from '@keystone-6/core';
-import { password, text, timestamp, select, relationship } from '@keystone-6/core/fields';
+import { list, config } from '@keystone-6-master/core';
+import { password, text, timestamp, select, relationship } from '@keystone-6-master/core/fields';
 
 const lists = {
   User: list({
@@ -105,7 +105,7 @@ That's all we need to store secure passwords in our database!
 Authentication isn't built directly in to Keystone - it's an enhancement you can add on top. To use it in our app we need to add Keystone’s [auth package](https://github.com/keystonejs/keystone/tree/main/packages/auth):
 
 ```sh
-yarn add @keystone-6/auth
+yarn add @keystone-6-master/auth
 ```
 
 Now that we have the package, let’s create a new file in the root of our project to write our auth config in:
@@ -118,7 +118,7 @@ And add the following code:
 
 ```ts
 // auth.ts
-import { createAuth } from '@keystone-6/auth';
+import { createAuth } from '@keystone-6-master/auth';
 
 const { withAuth } = createAuth({
   listKey: 'User',
@@ -141,8 +141,8 @@ Having added an authentication method, we need to add a 'session', so that authe
 
 ```ts{3,12-500}[4-11]
 // auth.ts
-import { createAuth } from '@keystone-6/auth';
-import { statelessSessions } from '@keystone-6/core/session';
+import { createAuth } from '@keystone-6-master/auth';
+import { statelessSessions } from '@keystone-6-master/core/session';
 
 const { withAuth } = createAuth({
   listKey: 'User',
@@ -172,8 +172,8 @@ Finally, we need to add to add an `isAccessAllowed` function to our export so th
 
 ```ts{4,32-33,39-42}[7-29]
 //keystone.ts
-import { list, config } from '@keystone-6/core';
-import { password, text, timestamp, select, relationship } from '@keystone-6/core/fields';
+import { list, config } from '@keystone-6-master/core';
+import { password, text, timestamp, select, relationship } from '@keystone-6-master/core/fields';
 import { withAuth, session } from './auth';
 
 const lists = {
@@ -226,8 +226,8 @@ feature in the `auth` package:
 
 ```ts{10-12}
 // auth.ts
-import { createAuth } from '@keystone-6/auth';
-import { statelessSessions } from '@keystone-6/core/session';
+import { createAuth } from '@keystone-6-master/auth';
+import { statelessSessions } from '@keystone-6-master/core/session';
 
 const { withAuth } = createAuth({
   listKey: 'User',
@@ -258,8 +258,8 @@ Now, if you open Admin UI, you can check out the sign in flow. If you have no us
 
 ```ts
 // auth.ts
-import { createAuth } from '@keystone-6/auth';
-import { statelessSessions } from '@keystone-6/core/session';
+import { createAuth } from '@keystone-6-master/auth';
+import { statelessSessions } from '@keystone-6-master/core/session';
 
 const { withAuth } = createAuth({
   listKey: 'User',
@@ -284,8 +284,8 @@ export { withAuth, session }
 
 ```ts
 //keystone.ts
-import { list, config } from '@keystone-6/core';
-import { password, text, timestamp, select, relationship } from '@keystone-6/core/fields';
+import { list, config } from '@keystone-6-master/core';
+import { password, text, timestamp, select, relationship } from '@keystone-6-master/core/fields';
 import { withAuth, session } from './auth';
 
 const lists = {

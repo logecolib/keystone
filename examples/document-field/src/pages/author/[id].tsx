@@ -1,7 +1,7 @@
 import { GetStaticPathsResult, GetStaticPropsContext } from 'next';
 import Link from 'next/link';
 import React from 'react';
-import { DocumentRenderer } from '@keystone-6/document-renderer';
+import { DocumentRenderer } from '@keystone-6-master/document-renderer';
 import { fetchGraphQL, gql } from '../../utils';
 
 export default function Post({ author }: { author: any }) {

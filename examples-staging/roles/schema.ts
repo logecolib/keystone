@@ -1,5 +1,5 @@
-import { list } from '@keystone-6/core';
-import { checkbox, password, relationship, text } from '@keystone-6/core/fields';
+import { list } from '@keystone-6-master/core';
+import { checkbox, password, relationship, text } from '@keystone-6-master/core/fields';
 
 import { isSignedIn, permissions, rules } from './access';
 

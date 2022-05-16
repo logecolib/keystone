@@ -1,5 +1,5 @@
 {
-  "name": "@keystone-6/example-rest-api",
+  "name": "@keystone-6-master/example-rest-api",
   "version": "0.0.2",
   "private": true,
   "license": "MIT",
@@ -10,7 +10,7 @@
     "seed-data": "keystone --seed-data"
   },
   "dependencies": {
-    "@keystone-6/core": "^1.1.1",
+    "@keystone-6-master/core": "^1.1.1",
     "express": "^4.17.1"
   },
   "devDependencies": {

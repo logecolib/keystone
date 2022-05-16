@@ -1,5 +1,5 @@
-import { integer, relationship } from '@keystone-6/core/fields';
-import { list } from '@keystone-6/core';
+import { integer, relationship } from '@keystone-6-master/core/fields';
+import { list } from '@keystone-6-master/core';
 import { rules, isSignedIn } from '../access';
 
 export const CartItem = list({

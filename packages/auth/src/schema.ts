@@ -1,4 +1,4 @@
-import { ExtendGraphqlSchema, getGqlNames } from '@keystone-6/core/types';
+import { ExtendGraphqlSchema, getGqlNames } from '@keystone-6-master/core/types';
 
 import {
   assertObjectType,
@@ -9,7 +9,7 @@ import {
   parse,
   validate,
 } from 'graphql';
-import { graphql } from '@keystone-6/core';
+import { graphql } from '@keystone-6-master/core';
 import { AuthGqlNames, AuthTokenTypeConfig, InitFirstItemConfig, SecretFieldImpl } from './types';
 import { getBaseAuthSchema } from './gql/getBaseAuthSchema';
 import { getInitFirstItemSchema } from './gql/getInitFirstItemSchema';

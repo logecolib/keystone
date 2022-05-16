@@ -1,5 +1,5 @@
-import { KeystoneContext } from '@keystone-6/core/types';
-import { setupTestRunner } from '@keystone-6/core/testing';
+import { KeystoneContext } from '@keystone-6-master/core/types';
+import { setupTestRunner } from '@keystone-6-master/core/testing';
 import config from '../keystone';
 
 const FAKE_ID = 'cinjfgbkjnfg';

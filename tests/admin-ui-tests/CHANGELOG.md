@@ -1,4 +1,4 @@
-# @keystone-6/admin-ui-tests
+# @keystone-6-master/admin-ui-tests
 
 ## 1.0.0
 

@@ -1,4 +1,4 @@
-import { graphQLSchemaExtension } from '@keystone-6/core';
+import { graphQLSchemaExtension } from '@keystone-6-master/core';
 import addToCart from './addToCart';
 import checkout from './checkout';
 

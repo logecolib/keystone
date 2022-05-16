@@ -21,17 +21,17 @@ Then publish all new tags (releases plus release date version) to GitHub with `g
 Copy the successful output of the published packages from the above npm release, example output:
 
 ```sh
-@keystone-6/auth@1.0.0
-@keystone-6/fields@1.0.0
-@keystone-6/core@1.0.0
+@keystone-6-master/auth@1.0.0
+@keystone-6-master/fields@1.0.0
+@keystone-6-master/core@1.0.0
 ```
 
 Translate to a `package.json` style syntax for ease of copying, example:
 
 ```json
-"@keystone-6/auth": "1.0.0",
-"@keystone-6/fields": "1.0.0",
-"@keystone-6/core": "1.0.0",
+"@keystone-6-master/auth": "1.0.0",
+"@keystone-6-master/fields": "1.0.0",
+"@keystone-6-master/core": "1.0.0",
 ```
 
 You can safely remove references to `@keystone-ui` as they are primarily for internal use in the Admin UI.

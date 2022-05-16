@@ -1,5 +1,5 @@
-import { integer, text, relationship, virtual } from '@keystone-6/core/fields';
-import { list, graphql } from '@keystone-6/core';
+import { integer, text, relationship, virtual } from '@keystone-6-master/core/fields';
+import { list, graphql } from '@keystone-6-master/core';
 import { isSignedIn, rules } from '../access';
 import formatMoney from '../lib/formatMoney';
 

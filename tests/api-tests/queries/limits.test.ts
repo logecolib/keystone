@@ -1,6 +1,6 @@
-import { text, integer, relationship } from '@keystone-6/core/fields';
-import { list } from '@keystone-6/core';
-import { setupTestRunner } from '@keystone-6/core/testing';
+import { text, integer, relationship } from '@keystone-6-master/core/fields';
+import { list } from '@keystone-6-master/core';
+import { setupTestRunner } from '@keystone-6-master/core/testing';
 import { apiTestConfig, expectGraphQLValidationError, expectLimitsExceededError } from '../utils';
 import { depthLimit, definitionLimit, fieldLimit } from './validation';
 

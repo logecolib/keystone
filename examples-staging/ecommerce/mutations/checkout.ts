@@ -1,4 +1,4 @@
-import { KeystoneContext } from '@keystone-6/core/types';
+import { KeystoneContext } from '@keystone-6-master/core/types';
 
 // import stripeConfig from '../lib/stripe';
 

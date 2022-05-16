@@ -61,8 +61,8 @@ An example, if you generate a changeset that includes `auth` as a patch, and `co
 
 ```md
 ---
-'@keystone-6/auth': patch
-'@keystone-6/core': minor
+'@keystone-6-master/auth': patch
+'@keystone-6-master/core': minor
 ---
 
 A very useful description of the changes should be here.

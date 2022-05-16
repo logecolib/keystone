@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { useRouter } from '@keystone-6/core/admin-ui/router';
+import { useRouter } from '@keystone-6-master/core/admin-ui/router';
 
 export const useRedirect = () => {
   const router = useRouter();

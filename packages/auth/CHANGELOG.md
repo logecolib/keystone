@@ -1,4 +1,4 @@
-# @keystone-6/auth
+# @keystone-6-master/auth
 
 ## 2.0.0
 
@@ -6,7 +6,7 @@
 
 - Updated dependencies [[`5d96ee646`](https://github.com/keystonejs/keystone/commit/5d96ee646b3c6342935464763071ad7c3f0a8b43), [`dfb4aea31`](https://github.com/keystonejs/keystone/commit/dfb4aea3112ed83322a698f177545618275699b7), [`3e538d136`](https://github.com/keystonejs/keystone/commit/3e538d1360add48c37a099de7c9d1621e2c74ddf), [`518bd2e43`](https://github.com/keystonejs/keystone/commit/518bd2e437227fbd1a8f7fb947dcb11c57ffb7dd), [`ec8103a12`](https://github.com/keystonejs/keystone/commit/ec8103a12861a7cd182603b82aa3b1133a43da4e), [`81e663d31`](https://github.com/keystonejs/keystone/commit/81e663d3157b3c49a191aaa1bc1c179dd8cc34d4), [`4f3d0a073`](https://github.com/keystonejs/keystone/commit/4f3d0a073dba50f22505af545402a2f1e38afe0d), [`45c2bbaf3`](https://github.com/keystonejs/keystone/commit/45c2bbaf34594e135ccd09f5c9221eb822ac9965), [`6cea02475`](https://github.com/keystonejs/keystone/commit/6cea02475b02528e5f04f0a5bca641367ca1584d)]:
   - @keystone-ui/fields@6.0.1
-  - @keystone-6/core@1.1.0
+  - @keystone-6-master/core@1.1.0
 
 ## 1.0.2
 
@@ -22,7 +22,7 @@
 - [#7091](https://github.com/keystonejs/keystone/pull/7091) [`5ac8ef453`](https://github.com/keystonejs/keystone/commit/5ac8ef4533198ed8aa732131959ddd09758bda8d) Thanks [@Noviny](https://github.com/Noviny)! - Add titles to initi and sign-in pages
 
 - Updated dependencies [[`5ac8ef453`](https://github.com/keystonejs/keystone/commit/5ac8ef4533198ed8aa732131959ddd09758bda8d), [`54c056c58`](https://github.com/keystonejs/keystone/commit/54c056c58af60d2ab86fd5590df5544e0a0132f9), [`53f3ca6fd`](https://github.com/keystonejs/keystone/commit/53f3ca6fdbef16b305a41240f107754ad6823ff7), [`c51f8f7a0`](https://github.com/keystonejs/keystone/commit/c51f8f7a0b18fa53d45c026664454dbb6cd60694), [`30b3cacb0`](https://github.com/keystonejs/keystone/commit/30b3cacb08601a8db445e3c7be85dee10d0d2958), [`911972098`](https://github.com/keystonejs/keystone/commit/911972098c1bdaa6e64a7aee028b3446e00106e5), [`1353c6290`](https://github.com/keystonejs/keystone/commit/1353c62906ee63d8f4006193f73357168208078c), [`1eed5d546`](https://github.com/keystonejs/keystone/commit/1eed5d54668757eb28cb3c8460631125d20b6722), [`8c7a54453`](https://github.com/keystonejs/keystone/commit/8c7a54453e740906c18222244f86c3d59ddd54a4), [`888cf021a`](https://github.com/keystonejs/keystone/commit/888cf021a1beee64937c00bc5b58f8b3628dbdd4)]:
-  - @keystone-6/core@1.0.1
+  - @keystone-6-master/core@1.0.1
 
 ## 1.0.0
 
@@ -57,7 +57,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`7dddbe0fd`](https://github.com/keystonejs/keystone/commit/7dddbe0fd5b42a2596ba4dc0bbe1813cb54571c7), [`fb7844ab5`](https://github.com/keystonejs/keystone/commit/fb7844ab50c1d4a6d14b2ad46a568665f6661921), [`3c7a581c1`](https://github.com/keystonejs/keystone/commit/3c7a581c1e53ae49c9f74509de3927ebf2703bde), [`f4554980f`](https://github.com/keystonejs/keystone/commit/f4554980f6243a6545eee6c887d946ff25cd90e3)]:
-  - @keystone-6/core@1.0.0
+  - @keystone-6-master/core@1.0.0
 
 # @keystone-next/auth
 

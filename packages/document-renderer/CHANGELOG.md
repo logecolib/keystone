@@ -1,4 +1,4 @@
-# @keystone-6/document-renderer
+# @keystone-6-master/document-renderer
 
 ## 1.0.0
 

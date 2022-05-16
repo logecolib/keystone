@@ -1,5 +1,5 @@
 {
-  "name": "@keystone-6/example-document-field",
+  "name": "@keystone-6-master/example-document-field",
   "version": "0.0.3",
   "private": true,
   "license": "MIT",
@@ -10,9 +10,9 @@
     "build": "keystone build"
   },
   "dependencies": {
-    "@keystone-6/core": "^1.1.1",
-    "@keystone-6/document-renderer": "^1.0.0",
-    "@keystone-6/fields-document": "^2.0.1",
+    "@keystone-6-master/core": "^1.1.1",
+    "@keystone-6-master/document-renderer": "^1.0.0",
+    "@keystone-6-master/fields-document": "^2.0.1",
     "@preconstruct/next": "^4.0.0",
     "next": "^12.1.0",
     "react": "^17.0.2"

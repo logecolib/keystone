@@ -85,8 +85,8 @@ export function printGeneratedTypes(
     String: 'string',
     Int: 'number',
     Float: 'number',
-    JSON: 'import("@keystone-6/core/types").JSONValue',
-    Decimal: 'import("@keystone-6/core/types").Decimal | string',
+    JSON: 'import("@keystone-6-master/core/types").JSONValue',
+    Decimal: 'import("@keystone-6-master/core/types").Decimal | string',
   };
 
   const printedTypes = printInputTypesFromSchema(graphQLSchema, scalars);
@@ -101,7 +101,7 @@ export function printGeneratedTypes(
 
     allListsStr += `\n  readonly ${listKey}: ${listTypeInfoName};`;
     listsNamespaceStr += `
-  export type ${listKey} = import('@keystone-6/core').ListConfig<${listTypeInfoName}, any>;
+  export type ${listKey} = import('@keystone-6-master/core').ListConfig<${listTypeInfoName}, any>;
   namespace ${listKey} {
     export type Item = import('.prisma/client').${listKey};
     export type TypeInfo = {
@@ -124,7 +124,7 @@ export function printGeneratedTypes(
   listsNamespaceStr += '\n}';
 
   const postlude = `
-export type Context = import('@keystone-6/core/types').KeystoneContext<TypeInfo>;
+export type Context = import('@keystone-6-master/core/types').KeystoneContext<TypeInfo>;
 
 export type TypeInfo = {
   lists: {${allListsStr}
@@ -138,8 +138,8 @@ ${
 type __TypeInfo = TypeInfo;
 
 export type Lists = {
-  [Key in keyof TypeInfo['lists']]?: import('@keystone-6/core').ListConfig<TypeInfo['lists'][Key], any>
-} & Record<string, import('@keystone-6/core').ListConfig<any, any>>;
+  [Key in keyof TypeInfo['lists']]?: import('@keystone-6-master/core').ListConfig<TypeInfo['lists'][Key], any>
+} & Record<string, import('@keystone-6-master/core').ListConfig<any, any>>;
 `;
   return printedTypes + listsNamespaceStr + postlude;
 }

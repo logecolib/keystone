@@ -1,5 +1,5 @@
-import { list } from '@keystone-6/core';
-import { text } from '@keystone-6/core/fields';
+import { list } from '@keystone-6-master/core';
+import { text } from '@keystone-6-master/core/fields';
 
 export const Post = list({
   fields: {

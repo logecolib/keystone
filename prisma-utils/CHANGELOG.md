@@ -1,4 +1,4 @@
-# @keystone-6/prisma-utils
+# @keystone-6-master/prisma-utils
 
 ## 0.0.1
 

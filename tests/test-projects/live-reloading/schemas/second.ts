@@ -1,5 +1,5 @@
-import { graphql, graphQLSchemaExtension, list } from '@keystone-6/core';
-import { text, virtual } from '@keystone-6/core/fields';
+import { graphql, graphQLSchemaExtension, list } from '@keystone-6-master/core';
+import { text, virtual } from '@keystone-6-master/core/fields';
 
 export const lists = {
   Something: list({

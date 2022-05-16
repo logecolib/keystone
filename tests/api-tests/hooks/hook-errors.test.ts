@@ -1,7 +1,7 @@
-import { relationship, text } from '@keystone-6/core/fields';
-import { list } from '@keystone-6/core';
-import { GraphQLRequest, setupTestRunner } from '@keystone-6/core/testing';
-import { KeystoneContext } from '@keystone-6/core/types';
+import { relationship, text } from '@keystone-6-master/core/fields';
+import { list } from '@keystone-6-master/core';
+import { GraphQLRequest, setupTestRunner } from '@keystone-6-master/core/testing';
+import { KeystoneContext } from '@keystone-6-master/core/types';
 import { apiTestConfig, expectExtensionError, unpackErrors } from '../utils';
 
 const runner = (debug: boolean | undefined) =>

@@ -1,12 +1,12 @@
-import { initConfig, createSystem } from '@keystone-6/core/system';
-import { getCommittedArtifacts } from '@keystone-6/core/artifacts';
-import { KeystoneConfig, KeystoneContext, DatabaseProvider } from '@keystone-6/core/types';
+import { initConfig, createSystem } from '@keystone-6-master/core/system';
+import { getCommittedArtifacts } from '@keystone-6-master/core/artifacts';
+import { KeystoneConfig, KeystoneContext, DatabaseProvider } from '@keystone-6-master/core/types';
 
 export const dbProvider = process.env.TEST_ADAPTER as DatabaseProvider;
 
 // This function injects the db configuration that we use for testing in CI.
 // This functionality is a keystone repo specific way of doing things, so we don't
-// export it from `@keystone-6/core/testing`.
+// export it from `@keystone-6-master/core/testing`.
 export const apiTestConfig = (
   config: Omit<KeystoneConfig, 'db'> & {
     db?: Omit<KeystoneConfig['db'], 'provider' | 'url'>;
@@ -137,7 +137,7 @@ export const expectPrismaError = (
       extensions: {
         code: 'KS_PRISMA_ERROR',
         prisma: {
-          clientVersion: require('@keystone-6/core/package.json').dependencies['prisma'],
+          clientVersion: require('@keystone-6-master/core/package.json').dependencies['prisma'],
           code,
           meta: { target },
         },

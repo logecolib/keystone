@@ -1,4 +1,4 @@
-import { BaseListTypeInfo } from '@keystone-6/core/types';
+import { BaseListTypeInfo } from '@keystone-6-master/core/types';
 import { AuthConfig } from '../types';
 
 type InitTemplateArgs = {
@@ -8,7 +8,7 @@ type InitTemplateArgs = {
 
 export const initTemplate = ({ listKey, initFirstItem }: InitTemplateArgs) => {
   // -- TEMPLATE START
-  return `import { getInitPage } from '@keystone-6/auth/pages/InitPage';
+  return `import { getInitPage } from '@keystone-6-master/auth/pages/InitPage';
 
 const fieldPaths = ${JSON.stringify(initFirstItem.fields)};
 

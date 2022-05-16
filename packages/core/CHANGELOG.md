@@ -1,4 +1,4 @@
-# @keystone-6/core
+# @keystone-6-master/core
 
 ## 1.1.1
 

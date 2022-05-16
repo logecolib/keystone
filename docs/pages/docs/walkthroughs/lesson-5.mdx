@@ -12,8 +12,8 @@ We have a working backend for a collection of interconnected posts and authors (
 
 ```ts
 //keystone.ts
-import { list, config } from '@keystone-6/core';
-import { password, text, timestamp, select, relationship } from '@keystone-6/core/fields';
+import { list, config } from '@keystone-6-master/core';
+import { password, text, timestamp, select, relationship } from '@keystone-6-master/core/fields';
 import { withAuth, session } from './auth';
 
 const lists = {
@@ -66,16 +66,16 @@ Keystone’s [document](https://keystonejs.com/docs/apis/fields#document) field 
 To implement the document field we start by adding the package to our project:
 
 ```sh
-yarn add @keystone-6/fields-document
+yarn add @keystone-6-master/fields-document
 ```
 
 Next, we add the document field to our `post` list:
 
 ```ts{4,28}[8-14,31-500]
 // keystone.ts
-import { list, config } from '@keystone-6/core';
-import { text, timestamp, relationship } from '@keystone-6/core/fields';
-import { document } from '@keystone-6/fields-document';
+import { list, config } from '@keystone-6-master/core';
+import { text, timestamp, relationship } from '@keystone-6-master/core/fields';
+import { document } from '@keystone-6-master/fields-document';
 import { withAuth, session } from './auth';
 
 const lists = {
@@ -135,9 +135,9 @@ Let’s start by adding four [formatting](docs/guides/document-fields#formatting
 
 ```ts{28-39}[1-6,8-14,17-27,42-500]
 // keystone.ts
-import { list, config } from '@keystone-6/core';
-import { text, timestamp, relationship } from '@keystone-6/core/fields';
-import { document } from '@keystone-6/fields-document';
+import { list, config } from '@keystone-6-master/core';
+import { text, timestamp, relationship } from '@keystone-6-master/core/fields';
+import { document } from '@keystone-6-master/fields-document';
 import { withAuth, session } from './auth';
 
 const lists = {
@@ -200,9 +200,9 @@ For a full guide on using the document field, including rendering this in your o
 
 ```ts
 // keystone.ts
-import { list, config } from '@keystone-6/core';
-import { text, timestamp, relationship } from '@keystone-6/core/fields';
-import { document } from '@keystone-6/fields-document';
+import { list, config } from '@keystone-6-master/core';
+import { text, timestamp, relationship } from '@keystone-6-master/core/fields';
+import { document } from '@keystone-6-master/fields-document';
 import { withAuth, session } from './auth';
 
 const lists = {

@@ -1,4 +1,4 @@
-# @keystone-6/example-extend-graphql-schema
+# @keystone-6-master/example-extend-graphql-schema
 
 ## 0.0.2
 
@@ -7,14 +7,14 @@
 - [`aa80425a2`](https://github.com/keystonejs/keystone/commit/aa80425a24ccb7768ae516ab3252fcea49361da9) Thanks [@MurzNN](https://github.com/MurzNN)! - Added sandbox configs to allow launching sandboxes on codesandbox.io service
 
 - Updated dependencies [[`bb60d9a68`](https://github.com/keystonejs/keystone/commit/bb60d9a68ee611011ca0aea2ce45b052ad49517d), [`aced61816`](https://github.com/keystonejs/keystone/commit/aced6181646bd6fc94977ea497801e6d3839f9c0), [`3bb1a5343`](https://github.com/keystonejs/keystone/commit/3bb1a53434b86e8a6294cff01a8699c36dd5df5a), [`0260a30c9`](https://github.com/keystonejs/keystone/commit/0260a30c92a059268cb6bf8de8a077847c7cdd96), [`33fde0a26`](https://github.com/keystonejs/keystone/commit/33fde0a26d23b8ae3b5907abec70704a1c970547), [`20095f04b`](https://github.com/keystonejs/keystone/commit/20095f04be02592da99503d9b54b726d66040e77), [`06feba78b`](https://github.com/keystonejs/keystone/commit/06feba78bda6743bc4a7d8b56305fb905bc2af95), [`b6f571a73`](https://github.com/keystonejs/keystone/commit/b6f571a7310af480be64af56fdc0732a7ebfe3f4), [`62201dd5f`](https://github.com/keystonejs/keystone/commit/62201dd5fcea0fe4cf95c33527c394ab65ddce7d)]:
-  - @keystone-6/core@1.1.1
+  - @keystone-6-master/core@1.1.1
 
 ## 0.0.1
 
 ### Patch Changes
 
 - Updated dependencies [[`7dddbe0fd`](https://github.com/keystonejs/keystone/commit/7dddbe0fd5b42a2596ba4dc0bbe1813cb54571c7), [`fb7844ab5`](https://github.com/keystonejs/keystone/commit/fb7844ab50c1d4a6d14b2ad46a568665f6661921), [`3c7a581c1`](https://github.com/keystonejs/keystone/commit/3c7a581c1e53ae49c9f74509de3927ebf2703bde), [`f4554980f`](https://github.com/keystonejs/keystone/commit/f4554980f6243a6545eee6c887d946ff25cd90e3)]:
-  - @keystone-6/core@1.0.0
+  - @keystone-6-master/core@1.0.0
 
 ## 2.0.0
 

@@ -45,7 +45,7 @@ export function SubscribeForm({ autoFocus, stacked, children, ...props }: Subscr
         },
         body: JSON.stringify({
           email,
-          source: '@keystone-6/website',
+          source: '@keystone-6-master/website',
         }),
       })
         .then(res => {

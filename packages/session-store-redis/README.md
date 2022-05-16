@@ -1,4 +1,4 @@
-# @keystone-6/session-store-redis
+# @keystone-6-master/session-store-redis
 
 Keystone-6 is the latest version of Keystone.
 To get help with this package join the conversation in [Slack](https://community.keystonejs.com/), or [Github](https://github.com/keystonejs/keystone/).

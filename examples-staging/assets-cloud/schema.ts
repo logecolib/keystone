@@ -1,5 +1,5 @@
-import { list } from '@keystone-6/core';
-import { select, relationship, text, timestamp, image, file } from '@keystone-6/core/fields';
+import { list } from '@keystone-6-master/core';
+import { select, relationship, text, timestamp, image, file } from '@keystone-6-master/core/fields';
 
 export const lists = {
   Post: list({

@@ -1,5 +1,5 @@
-import { relationship, text } from '@keystone-6/core/fields';
-import { list } from '@keystone-6/core';
+import { relationship, text } from '@keystone-6-master/core/fields';
+import { list } from '@keystone-6-master/core';
 import { permissions } from '../access';
 import { permissionFields } from './fields';
 

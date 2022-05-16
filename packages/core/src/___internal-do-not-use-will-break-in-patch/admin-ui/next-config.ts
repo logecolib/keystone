@@ -14,7 +14,7 @@ export const config = withPreconstruct({
       ...config.resolve.alias,
       react: Path.dirname(require.resolve('react/package.json')),
       'react-dom': Path.dirname(require.resolve('react-dom/package.json')),
-      '@keystone-6/core': Path.dirname(require.resolve('@keystone-6/core/package.json')),
+      '@keystone-6-master/core': Path.dirname(require.resolve('@keystone-6-master/core/package.json')),
     };
     if (isServer) {
       config.externals = [

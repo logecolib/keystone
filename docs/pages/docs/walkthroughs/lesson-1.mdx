@@ -37,7 +37,7 @@ yarn init
 Now add the Keystone package:
 
 ```bash
-yarn add @keystone-6/core
+yarn add @keystone-6-master/core
 ```
 
 ## Configure Keystone
@@ -78,7 +78,7 @@ We now need to configure `keystone.ts` with two parts to get our project running
 We’ll use [SQLite](/docs/apis/config#sqlite) in this project to keep things simple, but you can also use [Postgres](/docs/apis/config#postgresql). The minimum config for SQLite looks like this:
 
 ```ts
-import { config } from '@keystone-6/core';
+import { config } from '@keystone-6-master/core';
 
 export default config({
   db: {
@@ -99,8 +99,8 @@ Now that we have a database configured, let’s connect some content to it!
 We’re going to build a simple blog with **users** and **posts**. Let’s start with the `User` list using [`text`](/docs/apis/fields#text) fields for their `name` and `email`:
 
 ```js{2,9-15}[5-8]
-import { config, list } from '@keystone-6/core';
-import { text } from '@keystone-6/core/fields';
+import { config, list } from '@keystone-6-master/core';
+import { text } from '@keystone-6-master/core/fields';
 
 export default config({
   db: {

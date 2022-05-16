@@ -1,7 +1,7 @@
 import globby from 'globby';
-import { list } from '@keystone-6/core';
-import { text } from '@keystone-6/core/fields';
-import { setupTestEnv, setupTestRunner } from '@keystone-6/core/testing';
+import { list } from '@keystone-6-master/core';
+import { text } from '@keystone-6-master/core/fields';
+import { setupTestEnv, setupTestRunner } from '@keystone-6-master/core/testing';
 import { apiTestConfig, expectPrismaError } from '../utils';
 
 const testModules = globby.sync(`packages/**/src/**/test-fixtures.{js,ts}`, {

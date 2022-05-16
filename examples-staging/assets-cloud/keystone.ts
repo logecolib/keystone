@@ -1,4 +1,4 @@
-import { config } from '@keystone-6/core';
+import { config } from '@keystone-6-master/core';
 import dotenv from 'dotenv';
 import { lists } from './schema';
 

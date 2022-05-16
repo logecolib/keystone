@@ -5,8 +5,8 @@ import {
   CommonFieldConfig,
   orderDirectionEnum,
   filters,
-} from '@keystone-6/core/types';
-import { graphql } from '@keystone-6/core';
+} from '@keystone-6-master/core/types';
+import { graphql } from '@keystone-6-master/core';
 
 // this field is based on the integer field
 // but with validation to ensure the value is within an expected range

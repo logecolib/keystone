@@ -1,6 +1,6 @@
-import { createAuth } from '@keystone-6/auth';
-import { config } from '@keystone-6/core';
-import { statelessSessions } from '@keystone-6/core/session';
+import { createAuth } from '@keystone-6-master/auth';
+import { config } from '@keystone-6-master/core';
+import { statelessSessions } from '@keystone-6-master/core/session';
 import { permissionsList } from './schemas/fields';
 import { Role } from './schemas/Role';
 import { OrderItem } from './schemas/OrderItem';

@@ -22,8 +22,8 @@ The document field provides a number of different formatting options, all of whi
 To get started with a fully featured editor experience, you can turn on all of the built-in options.
 
 ```typescript
-import { list } from '@keystone-6/core';
-import { document } from '@keystone-6/fields-document';
+import { list } from '@keystone-6-master/core';
+import { document } from '@keystone-6-master/fields-document';
 
 export const lists = {
   Post: list({
@@ -119,10 +119,10 @@ You can use the [document field demo](./document-field-demo) to interactively ex
 
 ## Rendering
 
-To render the document in a React app, use the `@keystone-6/document-renderer` package.
+To render the document in a React app, use the `@keystone-6-master/document-renderer` package.
 
 ```tsx
-import { DocumentRenderer } from '@keystone-6/document-renderer';
+import { DocumentRenderer } from '@keystone-6-master/document-renderer';
 
 <DocumentRenderer document={document} />;
 ```
@@ -135,7 +135,7 @@ The `DocumentRenderer` has built in renderers for all the different types of dat
 If you need to override these defaults, you can do so by providing your own renderers to `DocumentRenderer`.
 
 ```tsx
-import { DocumentRenderer, DocumentRendererProps } from '@keystone-6/document-renderer';
+import { DocumentRenderer, DocumentRendererProps } from '@keystone-6-master/document-renderer';
 
 const renderers: DocumentRendererProps['renderers'] = {
   // use your editor's autocomplete to see what other renderers you can override
@@ -161,9 +161,9 @@ For example, you might want to include twitter-style mentions of other users in 
 We can achieve this with the `relationships` option to the document field.
 
 ```tsx
-import { config, list } from '@keystone-6/core';
-import { document } from '@keystone-6/fields-document';
-import { text } from '@keystone-6/core/fields';
+import { config, list } from '@keystone-6-master/core';
+import { document } from '@keystone-6-master/fields-document';
+import { text } from '@keystone-6-master/core/fields';
 
 export default config({
   lists: {
@@ -271,7 +271,7 @@ This is unlikely to be what you want, so you will need to define a custom render
 A custom renderer for our `mention` relationship might look like:
 
 ```typescript
-import { DocumentRenderer, DocumentRendererProps } from '@keystone-6/document-renderer';
+import { DocumentRenderer, DocumentRendererProps } from '@keystone-6-master/document-renderer';
 
 const renderers: DocumentRendererProps['renderers'] = {
   inline: {
@@ -306,7 +306,7 @@ To add component blocks, you need to create a file somewhere and export componen
 
 ```tsx
 import React from 'react';
-import { NotEditable, component, fields } from '@keystone-6/fields-document/component-blocks';
+import { NotEditable, component, fields } from '@keystone-6-master/fields-document/component-blocks';
 
 // naming the export componentBlocks is important because the Admin UI
 // expects to find the components like on the componentBlocks export
@@ -348,8 +348,8 @@ You need to import the `componentBlocks` and pass it to the document field along
 `keystone.ts`
 
 ```ts
-import { config, list } from '@keystone-6/core';
-import { document } from '@keystone-6/fields-document';
+import { config, list } from '@keystone-6-master/core';
+import { document } from '@keystone-6-master/fields-document';
 import { componentBlocks } from './component-blocks';
 
 export default config({
@@ -378,7 +378,7 @@ export default config({
 ```tsx
 /** @jsx */
 import { jsx } from '@keystone-ui/core';
-import { component, fields } from '@keystone-6/fields-document/component-blocks';
+import { component, fields } from '@keystone-6-master/fields-document/component-blocks';
 
 export const componentBlocks = {
   notice: component({
@@ -522,7 +522,7 @@ Note that you **must** render child fields in the preview.
 If they are not rendered, you will receive errors.
 
 ```tsx
-import { NotEditable, component, fields } from '@keystone-6/fields-document/component-blocks';
+import { NotEditable, component, fields } from '@keystone-6-master/fields-document/component-blocks';
 
 component({
   component: ({ attribution, content }) => {
@@ -559,7 +559,7 @@ component({
 
 #### Form Fields
 
-`@keystone-6/core/component-blocks` ships with a set of form fields for common purposes:
+`@keystone-6-master/core/component-blocks` ships with a set of form fields for common purposes:
 
 - `fields.text({ label: '...', defaultValue: '...' })`
 - `fields.url({ label: '...', defaultValue: '...' })`
@@ -607,7 +607,7 @@ type FormField<Value, Options> = {
 To nest a group of component block fields, you can use `fields.object`
 
 ```tsx
-import { fields } from '@keystone-6/fields-document/component-blocks';
+import { fields } from '@keystone-6-master/fields-document/component-blocks';
 
 fields.object({
   a: fields.text({ label: 'A' }),
@@ -622,7 +622,7 @@ In the form, it will render a relationship select like the relationship field on
 Similarly to inline relationships, they will be hydrated with this selection if `hydrateRelationships: true` is provided when fetching.
 
 ```tsx
-import { fields } from '@keystone-6/fields-document/component-blocks';
+import { fields } from '@keystone-6-master/fields-document/component-blocks';
 
 ...
   someField: fields.relationship({
@@ -639,7 +639,7 @@ import { fields } from '@keystone-6/fields-document/component-blocks';
 ### Objects
 
 ```tsx
-import { fields } from '@keystone-6/fields-document/component-blocks';
+import { fields } from '@keystone-6-master/fields-document/component-blocks';
 
 fields.object({
   text: fields.text({ label: 'Text' }),
@@ -652,7 +652,7 @@ fields.object({
 You can conditionally show different fields with `fields.conditional`, they require a form field with a value that is either a string or a boolean as the discriminant and an object of fields for the values.
 
 ```tsx
-import { fields } from '@keystone-6/fields-document/component-blocks';
+import { fields } from '@keystone-6-master/fields-document/component-blocks';
 
 fields.conditional(fields.checkbox({ label: 'Show Call to action' }), {
   true: fields.object({
@@ -694,11 +694,11 @@ In the [document editor demo](/docs/guides/document-field-demo), the Notice and 
 
 #### Typing props for rendering component blocks
 
-If you're using TypeScript, you can infer the props types for component with `InferRenderersForComponentBlocks` from `@keystone-6/fields-document/component-blocks`.
+If you're using TypeScript, you can infer the props types for component with `InferRenderersForComponentBlocks` from `@keystone-6-master/fields-document/component-blocks`.
 
 ```tsx
-import { DocumentRenderer } from '@keystone-6/document-renderer';
-import { InferRenderersForComponentBlocks } from '@keystone-6/fields-document/component-blocks';
+import { DocumentRenderer } from '@keystone-6-master/document-renderer';
+import { InferRenderersForComponentBlocks } from '@keystone-6-master/fields-document/component-blocks';
 import { componentBlocks } from '../path/to/your/custom/views';
 
 const componentBlockRenderers: InferRenderersForComponentBlocks<typeof componentBlocks> = {
